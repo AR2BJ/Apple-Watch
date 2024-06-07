@@ -1,0 +1,41 @@
+$primary_color_1: #0071e3;
+$primary_color_2: #2997ff;
+$primary_color_3: #0066cc;
+$primary_color_4: #161617;
+$primary_color_5: #1d1d1f;
+$primary_color_6: #f5f5f7;
+$primary_color_7: #ffffffcc;
+$radius: 25px;
+$font1: SFProDisplay;
+$font2: SFProText;
+$font_weight_db: 600;
+$row_gap: 44px;
+
+@keyframes bg {
+	0% {
+		background-color: $primary_color_1;
+	}
+	100% {
+		background-color: $primary_color_5;
+	}
+}
+
+@keyframes col {
+	0% {
+		color: #fff;
+	}
+	100% {
+		color: $primary_color_2;
+	}
+}
+
+@keyframes chev {
+	0% {
+		opacity: 0;
+		transform: scale(0.8);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}

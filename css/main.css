@@ -1,0 +1,3537 @@
+@keyframes bg {
+  0% {
+    background-color: #0071e3; }
+  100% {
+    background-color: #1d1d1f; } }
+
+@keyframes col {
+  0% {
+    color: #fff; }
+  100% {
+    color: #2997ff; } }
+
+@keyframes chev {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("../font/eot/SFProDisplay.eot");
+  src: local("SFProDisplay"), url("../font/eot/SFProDisplay.eot?#iefix") format("embedded-opentype"), url("../font/woff2/SFProDisplay.woff2") format("woff2"), url("../font/woff/SFProDisplay.woff") format("woff"), url("../font/ttf/SFProDisplay.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SFProText";
+  src: url("../font/eot/SFProText.eot");
+  src: local("SFProText"), url("../font/eot/SFProText.eot?#iefix") format("embedded-opentype"), url("../font/woff2/SFProText.woff2") format("woff2"), url("../font/woff/SFProText.woff") format("woff"), url("../font/ttf/SFProText.ttf") format("truetype"); }
+
+div.wrapper > header {
+  width: 100%;
+  height: fit-content;
+  min-width: 320px;
+  background-color: #333;
+  font-size: 17px;
+  transition: all 320ms cubic-bezier(0.4, 0, 0.6, 1);
+  position: relative;
+  z-index: 10; }
+  div.wrapper > header > div.container_1 {
+    width: inherit;
+    height: 44px;
+    max-width: 1024px;
+    padding: 0 22px;
+    margin: 0 auto; }
+    div.wrapper > header > div.container_1 > ul {
+      width: inherit;
+      height: fit-content;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      div.wrapper > header > div.container_1 > ul > li {
+        height: inherit; }
+        div.wrapper > header > div.container_1 > ul > li > a {
+          height: inherit;
+          padding: 0 8px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > header > div.container_1 > ul > li > a > svg {
+            fill: #ffffffcc;
+            transition: all 320ms cubic-bezier(0.4, 0, 0.6, 1); }
+          div.wrapper > header > div.container_1 > ul > li > a:hover > svg {
+            fill: #fff; }
+        div.wrapper > header > div.container_1 > ul > li > div.container {
+          height: inherit;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > header > div.container_1 > ul > li > div.container > p {
+            height: inherit; }
+            div.wrapper > header > div.container_1 > ul > li > div.container > p > a {
+              padding: 0 8px;
+              font-size: 12px;
+              font-weight: 400;
+              letter-spacing: -0.01em;
+              font-family: SFProText;
+              line-height: 1;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > header > div.container_1 > ul > li > div.container > p > a > svg {
+                fill: #ffffffcc;
+                transition: all 320ms cubic-bezier(0.4, 0, 0.6, 1); }
+              div.wrapper > header > div.container_1 > ul > li > div.container > p > a:hover > svg {
+                fill: #fff; }
+          div.wrapper > header > div.container_1 > ul > li > div.container > nav {
+            width: 100%;
+            margin: 0 auto;
+            max-width: 1055px;
+            padding: 40px 22px 84px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: calc(-600% - 44px);
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: start;
+            overflow-y: hidden; }
+            div.wrapper > header > div.container_1 > ul > li > div.container > nav > div[class*="item"] > h2 {
+              width: fit-content;
+              color: #86868b;
+              opacity: 0;
+              transform: translateY(-4px);
+              transition-property: all;
+              transition-duration: 640ms;
+              transition-delay: 200ms;
+              font-size: 12px;
+              line-height: 1.3333733333;
+              font-weight: 400;
+              letter-spacing: -0.01em;
+              font-family: SFProText; }
+            div.wrapper > header > div.container_1 > ul > li > div.container > nav > div[class*="item"] > ul {
+              width: fit-content; }
+              div.wrapper > header > div.container_1 > ul > li > div.container > nav > div[class*="item"] > ul > li {
+                opacity: 0;
+                transform: translateY(-4px);
+                transition-property: all;
+                transition-delay: 200ms; }
+                div.wrapper > header > div.container_1 > ul > li > div.container > nav > div[class*="item"] > ul > li > a {
+                  width: 100%;
+                  color: #e8e8ed;
+                  font-size: 24px;
+                  line-height: 1.1666666667;
+                  font-weight: 600;
+                  letter-spacing: 0.009em;
+                  font-family: SFProDisplay;
+                  padding: 9px 11px 0 0;
+                  transition: all 640ms cubic-bezier(0.4, 0, 0.6, 1);
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: start;
+                  align-items: center; }
+                  div.wrapper > header > div.container_1 > ul > li > div.container > nav > div[class*="item"] > ul > li > a:hover {
+                    color: #fff; }
+              div.wrapper > header > div.container_1 > ul > li > div.container > nav > div[class*="item"] > ul > li:nth-of-type(1) {
+                margin-top: 6px; }
+            div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item1 {
+              max-width: 50%;
+              padding-right: 88px;
+              display: flex;
+              flex-direction: column;
+              justify-content: start;
+              align-items: start; }
+              div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item1 > ul > li.small_li > a {
+                font-size: 12px;
+                line-height: 1.3333733333;
+                font-weight: 600;
+                letter-spacing: -0.01em;
+                font-family: SFProText;
+                padding: 7px 11px 0 0;
+                color: #e8e8ed;
+                transition: all 640ms cubic-bezier(0.4, 0, 0.6, 1); }
+              div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item1 > ul > li.small_li:nth-last-of-type(2) {
+                margin-top: 14px; }
+            div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item2 {
+              max-width: 25%;
+              padding-right: 44px;
+              display: flex;
+              flex-direction: column;
+              justify-content: start;
+              align-items: start; }
+              div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item2 > ul > li {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item2 > ul > li > a {
+                  font-size: 12px;
+                  line-height: 1.3333733333;
+                  font-weight: 600;
+                  letter-spacing: -0.01em;
+                  font-family: SFProText;
+                  padding: 7px 11px 0 0;
+                  color: #e8e8ed;
+                  transition: all 640ms cubic-bezier(0.4, 0, 0.6, 1); }
+              div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item2 > ul > li:nth-of-type(1) {
+                margin-top: 10px; }
+            div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item3 {
+              max-width: 25%;
+              padding-right: 44px;
+              display: flex;
+              flex-direction: column;
+              justify-content: start;
+              align-items: start; }
+              div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item3 > ul > li {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item3 > ul > li > a {
+                  font-size: 12px;
+                  line-height: 1.3333733333;
+                  font-weight: 600;
+                  letter-spacing: -0.01em;
+                  font-family: SFProText;
+                  padding: 7px 11px 0 0;
+                  color: #e8e8ed;
+                  transition: all 640ms cubic-bezier(0.4, 0, 0.6, 1); }
+              div.wrapper > header > div.container_1 > ul > li > div.container > nav > div.item3 > ul > li:nth-of-type(1) {
+                margin-top: 10px; }
+        div.wrapper > header > div.container_1 > ul > li:hover > div.container > nav > div[class*="item"] > h2 {
+          opacity: 1;
+          transform: translateY(0); }
+        div.wrapper > header > div.container_1 > ul > li:hover > div.container > nav > div[class*="item"] > ul > li {
+          opacity: 1;
+          transform: translateY(0);
+          transition-duration: 640ms; }
+      div.wrapper > header > div.container_1 > ul > li:nth-of-type(1) {
+        width: unset; }
+        div.wrapper > header > div.container_1 > ul > li:nth-of-type(1) > a {
+          padding-left: 0;
+          font-size: 17px;
+          line-height: 1.2353641176;
+          font-weight: 600;
+          letter-spacing: -0.022em;
+          font-family: SFProDisplay;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+      div.wrapper > header > div.container_1 > ul > li:nth-of-type(12) > div.container > nav > div.item1 > ul > li.small_li,
+      div.wrapper > header > div.container_1 > ul > li:nth-of-type(8) > div.container > nav > div.item1 > ul > li.small_li {
+        margin-top: 14px; }
+      div.wrapper > header > div.container_1 > ul > li:nth-of-type(13) {
+        width: unset; }
+      div.wrapper > header > div.container_1 > ul > li:nth-of-type(14) {
+        width: unset; }
+        div.wrapper > header > div.container_1 > ul > li:nth-of-type(14) > a {
+          padding-right: 0; }
+    div.wrapper > header > div.container_1 > div.submenu {
+      height: 44px;
+      max-height: calc(100dvh - 88px);
+      background-color: #333;
+      position: absolute;
+      inset: 0;
+      transition: all 320ms cubic-bezier(0.4, 0, 0.6, 1);
+      visibility: hidden;
+      overflow: hidden;
+      z-index: -1;
+      cursor: default; }
+  div.wrapper > header > div.container_2 {
+    width: inherit;
+    height: 100%; }
+    div.wrapper > header > div.container_2 > ul {
+      width: inherit;
+      height: fit-content;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      div.wrapper > header > div.container_2 > ul > li {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.6, 1); }
+        div.wrapper > header > div.container_2 > ul > li > a {
+          height: inherit;
+          padding: 0 8px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > header > div.container_2 > ul > li > a > svg {
+            color: #ffffffcc;
+            fill: #ffffffcc;
+            transition: all 0.32s cubic-bezier(0.4, 0, 0.6, 1); }
+          div.wrapper > header > div.container_2 > ul > li > a:hover > svg {
+            color: #fff;
+            fill: #fff; }
+      div.wrapper > header > div.container_2 > ul > li:nth-of-type(1) {
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transform: translate(4px) scale(1);
+        transition: opacity 0.24s cubic-bezier(0.4, 0, 0.6, 1), transform 0.24s cubic-bezier(0.4, 0, 0.6, 1), visibility 0.24s step-end; }
+      div.wrapper > header > div.container_2 > ul > li:nth-of-type(2) {
+        flex: 1; }
+        div.wrapper > header > div.container_2 > ul > li:nth-of-type(2) > a {
+          padding: 0 16px; }
+      div.wrapper > header > div.container_2 > ul > li:nth-of-type(1),
+      div.wrapper > header > div.container_2 > ul > li:nth-of-type(3),
+      div.wrapper > header > div.container_2 > ul > li:nth-of-type(4),
+      div.wrapper > header > div.container_2 > ul > li:nth-of-type(5) {
+        justify-content: center; }
+    div.wrapper > header > div.container_2 > div.menu {
+      height: 44px;
+      background-color: #333;
+      position: absolute;
+      inset: 0;
+      transition: all 0.48s cubic-bezier(0.4, 0, 0.6, 1);
+      visibility: hidden;
+      overflow: hidden;
+      z-index: -1;
+      cursor: default; }
+      div.wrapper > header > div.container_2 > div.menu > div.content {
+        padding: 50px 0 84px;
+        opacity: 0;
+        transition: all 0.32s cubic-bezier(0.4, 0, 0.6, 1); }
+        div.wrapper > header > div.container_2 > div.menu > div.content > ul {
+          position: relative; }
+          div.wrapper > header > div.container_2 > div.menu > div.content > ul > li {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-8px);
+            transition-property: opacity, transform, visibility;
+            transition-duration: 0.24s;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.6, 1), cubic-bezier(0.4, 0, 0.6, 1), step-start; }
+            div.wrapper > header > div.container_2 > div.menu > div.content > ul > li > a {
+              width: 100%;
+              color: #e8e8ed;
+              padding: 10.5px 20px 4.5px 48px;
+              font-size: 28px;
+              line-height: 1.1428571429;
+              font-weight: 600;
+              letter-spacing: 0.007em;
+              font-family: SFProDisplay;
+              transition: color 0.32s cubic-bezier(0.4, 0, 0.6, 1);
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > ul > li > a > svg {
+                opacity: 0;
+                font-size: 20px; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > ul > li > a:hover {
+                color: #fff;
+                fill: #fff; }
+            div.wrapper > header > div.container_2 > div.menu > div.content > ul > li:hover > a > svg {
+              animation: chev 0.24s cubic-bezier(0.87, 0.35, 0.18, 1.09) both;
+              opacity: 1; }
+        div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] {
+          width: 100%;
+          background-color: #161617;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          opacity: 0;
+          visibility: hidden;
+          transform: translate(4px) scale(1);
+          transition: opacity 0.24s cubic-bezier(0.4, 0, 0.6, 1), transform 0.24s cubic-bezier(0.4, 0, 0.6, 1), visibility 0.24s step-end;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: start;
+          z-index: -1; }
+          div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents {
+            width: 100%;
+            max-width: 1024px;
+            padding: 50px 48px 0;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: start;
+            transition: all 0.24s cubic-bezier(0.4, 0, 0.6, 1); }
+            div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div[class*="item"] {
+              padding-bottom: 52px; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div[class*="item"] > h2 {
+                color: #86868b;
+                font-size: 17px;
+                line-height: 1.2353641176;
+                font-weight: 400;
+                letter-spacing: -0.022em;
+                font-family: SFProText; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div[class*="item"] > ul > li > a {
+                color: #e8e8ed;
+                padding: 11px 11px 4px;
+                font-size: 28px;
+                line-height: 1.1428571429;
+                font-weight: 600;
+                letter-spacing: 0.007em;
+                font-family: SFProDisplay;
+                transition: all 0.32s cubic-bezier(0.4, 0, 0.6, 1);
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center; }
+                div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div[class*="item"] > ul > li > a:hover {
+                  color: #fff; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div[class*="item"] > ul > li.small_li > a {
+                font-size: 17px;
+                line-height: 1.4705882353;
+                font-weight: 600;
+                letter-spacing: -0.022em;
+                font-family: SFProText; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div[class*="item"] > ul > li.small_li:nth-last-of-type(1) a {
+                padding-top: 8px; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div[class*="item"] > ul > li.small_li:nth-last-of-type(2) {
+                margin-top: 17px; }
+            div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div.item1 {
+              max-width: 75%;
+              flex-basis: 75%;
+              padding-right: 96px;
+              margin-right: 25%; }
+            div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div.item2,
+            div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div.item3 {
+              max-width: 50%;
+              padding-right: 48px; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div.item2 > ul > li > a,
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div.item3 > ul > li > a {
+                padding: 8px 0 2px;
+                font-size: 17px;
+                line-height: 1.4705882353;
+                font-weight: 600;
+                letter-spacing: -0.022em;
+                font-family: SFProText; }
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div.item2 > ul > li:nth-of-type(1),
+              div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div.item3 > ul > li:nth-of-type(1) {
+                margin-top: 14px; }
+            div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div.item3 {
+              padding-bottom: 92px; }
+        div.wrapper > header > div.container_2 > div.menu > div.content > div.submenu_6 > div.contents > div.item1 {
+          padding-right: 93px; }
+        div.wrapper > header > div.container_2 > div.menu > div.content > div.submenu_7 > div.contents > div.item1 {
+          padding-right: 58px; }
+  div.wrapper > header > div.products {
+    width: inherit;
+    height: 124px;
+    background-color: #000;
+    padding: 12px 0;
+    text-align: center;
+    position: relative;
+    z-index: -2; }
+    div.wrapper > header > div.products > div.items {
+      height: 100%;
+      margin: 0 34px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      div.wrapper > header > div.products > div.items > ul {
+        padding-bottom: 6px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2px;
+        scroll-behavior: smooth; }
+        div.wrapper > header > div.products > div.items > ul > li {
+          padding: 0 5px 0 4px; }
+          div.wrapper > header > div.products > div.items > ul > li > a {
+            color: #f5f5f7;
+            display: block;
+            padding: 0;
+            margin-top: 3px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            z-index: 1; }
+            div.wrapper > header > div.products > div.items > ul > li > a > img {
+              width: 25px;
+              height: 54px;
+              margin: 0 23px 3px; }
+            div.wrapper > header > div.products > div.items > ul > li > a > span {
+              white-space: normal;
+              max-width: 7em;
+              margin: 0 auto;
+              font-size: 12px;
+              line-height: 1.3333733333;
+              font-weight: 400;
+              letter-spacing: -0.01em;
+              font-family: SFProText;
+              display: block; }
+              div.wrapper > header > div.products > div.items > ul > li > a > span:hover {
+                color: #2997ff; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(2) > a > img {
+          width: 28px; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(5) > a > img {
+          width: 38px; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(6) > a > img {
+          width: 56px; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(7) {
+          padding: 0 16px 16px; }
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(7) > a > img {
+            margin: 0 auto 3px;
+            width: 45px; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(8) {
+          padding: 0 16px 15px; }
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(8) > a > img {
+            margin: 0 auto 3px;
+            width: 17px; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(9) {
+          padding: 0 20px 15px; }
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(9) > a > img {
+            margin: 0 auto 3px;
+            width: 39px; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(10) {
+          padding: 0 20px 15px; }
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(10) > a > img {
+            margin: 0 auto 5px;
+            width: 22px; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(11),
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(12),
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(13) {
+          padding: 0 16px 15px; }
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(11) > a > img,
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(12) > a > img,
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(13) > a > img {
+            margin: 0 auto 6px;
+            width: 35px; }
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(11) > a > span,
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(12) > a > span,
+          div.wrapper > header > div.products > div.items > ul > li:nth-of-type(13) > a > span {
+            white-space: unset; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(13) > a > img {
+          width: 63px; }
+        div.wrapper > header > div.products > div.items > ul > li:nth-of-type(13) > a > span {
+          white-space: unset; }
+        div.wrapper > header > div.products > div.items > ul::-webkit-scrollbar {
+          display: none; }
+      div.wrapper > header > div.products > div.items > div.navigation {
+        width: inherit;
+        height: 100px;
+        position: absolute;
+        right: 0;
+        left: 0; }
+        div.wrapper > header > div.products > div.items > div.navigation > button {
+          width: 33px;
+          height: inherit;
+          background-color: transparent;
+          border: unset;
+          opacity: 0;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          text-align: center;
+          transition: opacity 150ms ease-out;
+          z-index: -1; }
+          div.wrapper > header > div.products > div.items > div.navigation > button > a {
+            color: #f5f5f7;
+            font-size: 17px;
+            line-height: 1.7647058824;
+            font-weight: 300;
+            font-family: SFProText; }
+            div.wrapper > header > div.products > div.items > div.navigation > button > a > svg {
+              opacity: 0.8;
+              transition: opacity 200ms linear; }
+          div.wrapper > header > div.products > div.items > div.navigation > button:hover > svg {
+            opacity: 1; }
+        div.wrapper > header > div.products > div.items > div.navigation > button.prev {
+          border-right: 1px solid #424245;
+          left: 0; }
+        div.wrapper > header > div.products > div.items > div.navigation > button.next {
+          border-left: 1px solid #424245;
+          right: 0; }
+  div.wrapper > header > div.shop {
+    background-color: #0071e3;
+    padding: 16px 0;
+    position: relative;
+    z-index: -2;
+    animation: bg 1s ease-in-out 1.8s forwards; }
+    div.wrapper > header > div.shop > div.content {
+      width: 980px;
+      max-width: 1440px;
+      color: #fff;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      animation: col 1s ease-in-out 1.8s forwards; }
+      div.wrapper > header > div.shop > div.content > div.content {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        div.wrapper > header > div.shop > div.content > div.content > p {
+          color: #fff;
+          width: fit-content;
+          background-color: transparent;
+          font-size: 14px;
+          line-height: 1.4285914286;
+          font-weight: 400;
+          letter-spacing: -0.016em;
+          font-family: SFProText;
+          white-space: normal;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > header > div.shop > div.content > div.content > p > span > sup {
+            color: #fff;
+            background-color: transparent;
+            position: relative;
+            top: -4px;
+            padding: 0 3px 0 2px;
+            height: fit-content; }
+            div.wrapper > header > div.shop > div.content > div.content > p > span > sup > a {
+              color: currentColor;
+              font-size: 8.2px;
+              line-height: 1.4285914286;
+              font-weight: 400;
+              letter-spacing: -0.016em;
+              font-family: SFProText; }
+              div.wrapper > header > div.shop > div.content > div.content > p > span > sup > a:hover {
+                color: #2997ff; }
+          div.wrapper > header > div.shop > div.content > div.content > p > span > a {
+            color: #fff;
+            animation: col 1s ease-in-out 1.8s forwards; }
+            div.wrapper > header > div.shop > div.content > div.content > p > span > a > svg {
+              margin-left: 3px;
+              font-size: 9.5px;
+              line-height: 1.4285914286;
+              font-weight: 400;
+              letter-spacing: -0.016em;
+              font-family: SFProText; }
+            div.wrapper > header > div.shop > div.content > div.content > p > span > a:hover {
+              text-decoration: underline; }
+
+div.wrapper > main {
+  overflow: hidden; }
+  div.wrapper > main > div.content1 {
+    background-color: #000;
+    margin-bottom: 30px; }
+    div.wrapper > main > div.content1 > div.content1 {
+      margin: 0 auto;
+      padding: 30px 30px 0;
+      max-width: 1440px; }
+      div.wrapper > main > div.content1 > div.content1 > div.items {
+        color: #fff;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center; }
+        div.wrapper > main > div.content1 > div.content1 > div.items > div.head {
+          padding: 35px 0 0;
+          width: 100%;
+          margin: 0 auto; }
+          div.wrapper > main > div.content1 > div.content1 > div.items > div.head > h2 {
+            width: inherit;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+          div.wrapper > main > div.content1 > div.content1 > div.items > div.head > p {
+            width: inherit;
+            text-align: center;
+            margin-top: 12px;
+            font-size: 48px;
+            line-height: 1.0834933333;
+            font-weight: 600;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content1 > div.content1 > div.items > div.head > p:nth-of-type(2) {
+            margin-top: 22px;
+            margin-bottom: 22px;
+            font-size: 21px;
+            line-height: 1.381002381;
+            font-weight: 400;
+            letter-spacing: 0.0045em; }
+          div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer {
+            display: flex;
+            flex-flow: row wrap;
+            row-gap: 2px;
+            margin-top: 13.6px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+            padding-bottom: 3px; }
+            div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(1) {
+              width: 100%;
+              height: fit-content;
+              text-align: center;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a {
+                cursor: pointer;
+                text-align: center;
+                white-space: nowrap;
+                font-size: 17px;
+                line-height: 1.1764805882;
+                font-weight: 400;
+                letter-spacing: -0.022em;
+                font-family: SFProDisplay;
+                min-width: 30px;
+                padding: 7px 15px;
+                border-radius: 25px;
+                background-color: #0071e3;
+                color: #fff;
+                border: 1px solid transparent; }
+                div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a:hover {
+                  background-color: #0077ed; }
+            div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(2) {
+              margin-right: 20px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              margin-top: 13.6px; }
+              div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a {
+                color: #2997ff;
+                font-size: 21px;
+                line-height: 1.19048;
+                font-weight: 400;
+                letter-spacing: 0.011em;
+                font-family: SFProDisplay;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a > svg {
+                  font-size: 13px;
+                  padding-top: 5px;
+                  margin-left: 5px; }
+            div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(3) {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              margin-top: 13.6px; }
+              div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(3) > a {
+                color: #2997ff;
+                font-size: 21px;
+                line-height: 1.19048;
+                font-weight: 400;
+                letter-spacing: 0.011em;
+                font-family: SFProDisplay;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(3) > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(3) > a > svg {
+                  margin-left: 10px; }
+        div.wrapper > main > div.content1 > div.content1 > div.items > div.img {
+          margin-top: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: unset; }
+  div.wrapper > main > div.content2 {
+    background-color: #f5f5f7; }
+    div.wrapper > main > div.content2 > div.content2 {
+      margin: 0 auto 30px;
+      padding: 47px 30px 0;
+      max-width: 1440px; }
+      div.wrapper > main > div.content2 > div.content2 > div.items {
+        color: #1d1d1f;
+        background-color: #f5f5f7;
+        padding-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center; }
+        div.wrapper > main > div.content2 > div.content2 > div.items > div.head {
+          padding: 18px 0 5px;
+          width: 100%;
+          margin: 0 auto; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > h2 {
+            width: inherit;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > p {
+            width: inherit;
+            padding: 0 32px;
+            margin-top: 12px;
+            text-align: center;
+            margin-top: 12px;
+            font-size: 48px;
+            line-height: 1.0834933333;
+            font-weight: 600;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > p:nth-of-type(2) {
+            margin-top: 22px;
+            margin-bottom: 22px;
+            font-size: 21px;
+            line-height: 1.381002381;
+            font-weight: 600;
+            letter-spacing: 0.0045em; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer {
+            display: flex;
+            flex-flow: row wrap;
+            row-gap: 2px;
+            margin-top: 13.6px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+            padding-bottom: 3px; }
+            div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer > p:nth-of-type(1) {
+              width: 100%;
+              height: fit-content;
+              text-align: center;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a {
+                cursor: pointer;
+                text-align: center;
+                white-space: nowrap;
+                font-size: 17px;
+                line-height: 1.1764805882;
+                font-weight: 400;
+                letter-spacing: -0.022em;
+                font-family: SFProText;
+                min-width: 30px;
+                padding: 7px 15px;
+                border-radius: 25px;
+                background-color: #0071e3;
+                color: #fff;
+                border: 1px solid transparent; }
+                div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a:hover {
+                  background-color: #0077ed; }
+            div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer > p:nth-of-type(2) {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              margin-top: 13.6px; }
+              div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a {
+                color: #0066cc;
+                font-size: 21px;
+                line-height: 1.19048;
+                font-weight: 400;
+                letter-spacing: 0.011em;
+                font-family: SFProDisplay;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a > svg {
+                  font-size: 13px;
+                  padding-top: 5px;
+                  margin-left: 5px; }
+        div.wrapper > main > div.content2 > div.content2 > div.items > div.img {
+          margin-top: 60px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: unset; }
+  div.wrapper > main > div.content3 {
+    background-color: #f5f5f7;
+    margin-bottom: 30px; }
+    div.wrapper > main > div.content3 > div.content3 {
+      margin: 0 auto;
+      padding: 0 30px;
+      max-width: 1440px; }
+      div.wrapper > main > div.content3 > div.content3 > div.items {
+        color: #1d1d1f;
+        background-color: #f5f5f7;
+        padding: 35px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        column-gap: 150px;
+        overflow: hidden; }
+        div.wrapper > main > div.content3 > div.content3 > div.items > div.head {
+          max-width: 45%;
+          padding: 200px 0 74px;
+          width: unset; }
+          div.wrapper > main > div.content3 > div.content3 > div.items > div.head > h2 {
+            width: inherit;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+          div.wrapper > main > div.content3 > div.content3 > div.items > div.head > p {
+            width: inherit;
+            text-align: center;
+            margin-top: 12px;
+            font-size: 48px;
+            line-height: 1.0834933333;
+            font-weight: 600;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content3 > div.content3 > div.items > div.head > p:nth-of-type(2) {
+            margin-top: 22px;
+            margin-bottom: 22px;
+            font-size: 21px;
+            line-height: 1.381002381;
+            font-weight: 600;
+            letter-spacing: 0.0045em; }
+          div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 1; }
+            div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer > p:nth-of-type(1) {
+              height: fit-content;
+              margin: 13.6px 0 24px;
+              text-align: center;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a {
+                cursor: pointer;
+                text-align: center;
+                white-space: nowrap;
+                font-size: 17px;
+                line-height: 1.1764805882;
+                font-weight: 400;
+                letter-spacing: -0.022em;
+                font-family: SFProText;
+                min-width: 30px;
+                padding: 7px 15px;
+                border-radius: 25px;
+                background-color: #0071e3;
+                color: #fff;
+                border: 1px solid transparent; }
+                div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a:hover {
+                  background-color: #0077ed; }
+            div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer > p:nth-of-type(2) {
+              height: 27px;
+              margin: 13.6px 0 24px 20px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a {
+                color: #0066cc;
+                font-size: 21px;
+                line-height: 1.19048;
+                font-weight: 400;
+                letter-spacing: 0.011em;
+                font-family: SFProDisplay;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a > svg {
+                  font-size: 13px;
+                  padding-top: 5px;
+                  margin-left: 5px; }
+        div.wrapper > main > div.content3 > div.content3 > div.items > div.img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: unset; }
+  div.wrapper > main > div.content4 {
+    background-color: #f5f5f7; }
+    div.wrapper > main > div.content4 > div.content4 {
+      margin: 0 auto 30px;
+      padding: 47px 30px 0;
+      max-width: 1440px; }
+      div.wrapper > main > div.content4 > div.content4 > div.items {
+        color: #1d1d1f;
+        background-color: #f5f5f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center; }
+        div.wrapper > main > div.content4 > div.content4 > div.items > div.head {
+          padding: 18px 0 5px;
+          width: 100%;
+          margin: 0 auto; }
+          div.wrapper > main > div.content4 > div.content4 > div.items > div.head > h2 {
+            width: fit-content;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+          div.wrapper > main > div.content4 > div.content4 > div.items > div.head > p {
+            width: inherit;
+            text-align: center;
+            margin-top: 19px;
+            font-size: 48px;
+            line-height: 1.0834933333;
+            font-weight: 600;
+            letter-spacing: 0em;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content4 > div.content4 > div.items > div.head > div.item_footer {
+            display: flex;
+            flex-flow: row wrap;
+            row-gap: 2px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1; }
+            div.wrapper > main > div.content4 > div.content4 > div.items > div.head > div.item_footer > p {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              margin-top: 13.6px; }
+              div.wrapper > main > div.content4 > div.content4 > div.items > div.head > div.item_footer > p > a {
+                color: #0066cc;
+                font-size: 21px;
+                line-height: 1.19048;
+                font-weight: 400;
+                letter-spacing: 0.011em;
+                font-family: SFProDisplay;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content4 > div.content4 > div.items > div.head > div.item_footer > p > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content4 > div.content4 > div.items > div.head > div.item_footer > p > a > svg {
+                  font-size: 13px;
+                  padding-top: 5px;
+                  margin-left: 5px; }
+        div.wrapper > main > div.content4 > div.content4 > div.items > div.img {
+          margin-top: 60px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: unset; }
+  div.wrapper > main > div.content5 {
+    margin-bottom: 120px; }
+    div.wrapper > main > div.content5 > div.content5 {
+      padding: 50px 0 0;
+      margin: 0 auto;
+      max-width: 980px;
+      text-align: center; }
+      div.wrapper > main > div.content5 > div.content5 > h2 {
+        font-size: 48px;
+        line-height: 1.0834933333;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+        font-family: SFProDisplay; }
+      div.wrapper > main > div.content5 > div.content5 > div.container {
+        color: #1d1d1f;
+        margin: 57px auto 44px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+        align-items: start;
+        gap: 0 32px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          flex: auto; }
+          div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.img {
+              width: inherit; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.img > img {
+                margin: 0 auto 30px;
+                display: flex; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.colors {
+              width: inherit;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              height: 16px;
+              position: relative;
+              gap: 0 6px; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.colors div[class*="color"] {
+                width: 11px;
+                height: 11px;
+                border-radius: 50%; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.colors p.more {
+                color: #000;
+                display: none;
+                font-size: 14px;
+                line-height: 1.4285914286;
+                font-weight: 400;
+                letter-spacing: -0.016em;
+                font-family: SFProText; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.head {
+              width: inherit;
+              position: relative;
+              padding: 11px 0 0;
+              margin-bottom: 44px; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.head > h3 {
+                color: #1d1d1f;
+                padding-top: 5px;
+                margin-bottom: 8.4px;
+                font-size: 21px;
+                line-height: 1.1904761905;
+                font-weight: 600;
+                letter-spacing: 0.011em;
+                font-family: SFProDisplay; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.head > p {
+                font-size: 14px;
+                line-height: 1.4285914286;
+                font-weight: 400;
+                letter-spacing: -0.016em;
+                font-family: SFProText; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.foot {
+              width: inherit;
+              position: relative;
+              padding: 0 0 26px;
+              margin-top: -17px;
+              border-bottom: 1px solid #d2d2d7; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.foot > p:nth-of-type(1) {
+                font-size: 14px;
+                line-height: 1.4285914286;
+                font-weight: 400;
+                letter-spacing: -0.016em;
+                font-family: SFProText; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.foot > p:nth-of-type(2) {
+                height: fit-content;
+                margin: 16px 0;
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.foot > p:nth-of-type(2) > a {
+                  width: 47px;
+                  min-width: 25px;
+                  color: #fff;
+                  background-color: #0071e3;
+                  border: 1px solid transparent;
+                  border-radius: 25px;
+                  padding: 3px 10px;
+                  font-size: 12px;
+                  line-height: 1.3333733333;
+                  font-weight: 400;
+                  letter-spacing: -0.01em;
+                  font-family: SFProText; }
+                  div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.foot > p:nth-of-type(2) > a:hover {
+                    background-color: #0077ed; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.foot > p:nth-of-type(3) > a {
+                color: #0066cc;
+                font-size: 14px;
+                line-height: 1.4285914286;
+                font-weight: 400;
+                letter-spacing: -0.016em;
+                font-family: SFProText;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.foot > p:nth-of-type(3) > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.foot > p:nth-of-type(3) > a > svg {
+                  font-size: 9px;
+                  padding: 2px 0 0 4.2px; }
+          div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 {
+            margin-top: 44px; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > h4 {
+              width: inherit;
+              height: 69px;
+              color: #1d1d1f;
+              font-size: 19px;
+              line-height: 1.2105263158;
+              font-weight: 600;
+              letter-spacing: 0.012em;
+              font-family: SFProDisplay; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div[class*="content"] {
+              width: inherit;
+              margin-top: 44px; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div[class*="content"] > img {
+                margin: 0 auto 13px;
+                display: flex; }
+              div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div[class*="content"] > p {
+                font-size: 14px;
+                line-height: 1.4285914286;
+                font-weight: 400;
+                letter-spacing: -0.016em;
+                font-family: SFProText; }
+                div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div[class*="content"] > p > span {
+                  color: #6e6e73; }
+                div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div[class*="content"] > p > sup {
+                  height: fit-content;
+                  padding: 0;
+                  display: inline-block;
+                  vertical-align: baseline;
+                  position: relative;
+                  top: -6px; }
+                  div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div[class*="content"] > p > sup > a {
+                    color: currentColor;
+                    font-size: 8.2px;
+                    line-height: 1.4285914286;
+                    font-weight: 400;
+                    letter-spacing: -0.016em;
+                    font-family: SFProText; }
+                    div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div[class*="content"] > p > sup > a:hover {
+                      color: #0066cc; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content3 > p,
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content4 > p,
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content5 > p,
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content6 > p,
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content7 > p,
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content8 > p,
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content9 > p {
+              margin-top: 11.2px; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content3 > p:nth-of-type(1),
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content4 > p:nth-of-type(1),
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content5 > p:nth-of-type(1),
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content6 > p:nth-of-type(1),
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content7 > p:nth-of-type(1),
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content8 > p:nth-of-type(1),
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content9 > p:nth-of-type(1) {
+              margin-top: 0; }
+            div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div.content9 {
+              padding-bottom: 44px;
+              border-bottom: 1px solid #d2d2d7; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_1 > div.colors > div.color1 {
+          background-color: #1a2530; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_1 > div.colors > div.color2 {
+          background-color: #ded6d1; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_1 > div.colors > div.color3 {
+          background-color: #e0e0e0; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_2 > div.content3 > p:nth-of-type(3) {
+          height: 40px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_2 > div.content5 > p:nth-of-type(2) {
+          margin-bottom: 40px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_2 > div.content8 > p:nth-of-type(1) {
+          height: 40px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_2 > div.content9 > p:nth-of-type(2) {
+          height: 40px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors > div.color1 {
+          background-color: #1a2530; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors > div.color2 {
+          background-color: #ded6d1; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors > div.color3 {
+          background-color: #e0e0e0; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors > div.color4 {
+          background-color: #fadcde; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors > div.color5 {
+          background-color: #d61139; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors > div.color6 {
+          background-color: #3e3a36; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors > div.color7 {
+          background-color: #e6e6e7; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors > div.color8 {
+          background-color: #d4bda1; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_2 > div.content8 > p:nth-of-type(1) {
+          height: 40px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div.item_3 > div.item_1 > div.colors > div.color1 {
+          background-color: #ccc4bc; }
+      div.wrapper > main > div.content5 > div.content5 > p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        div.wrapper > main > div.content5 > div.content5 > p > a {
+          color: #0066cc;
+          font-size: 24px;
+          line-height: 1.3334133333;
+          font-weight: 400;
+          letter-spacing: 0.009em;
+          font-family: SFProDisplay;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > main > div.content5 > div.content5 > p > a > svg {
+            font-size: 14px;
+            padding: 2px 0 0 7.2px; }
+          div.wrapper > main > div.content5 > div.content5 > p > a:hover {
+            text-decoration: underline; }
+        div.wrapper > main > div.content5 > div.content5 > p > a:nth-of-type(2) {
+          margin-left: 48px; }
+  div.wrapper > main > div.content6 {
+    margin-bottom: 30px; }
+    div.wrapper > main > div.content6 > div.content6 {
+      margin: 0 auto;
+      padding: 30px 30px 0;
+      max-width: 1440px;
+      overflow: hidden; }
+      div.wrapper > main > div.content6 > div.content6 > div.items {
+        color: #1d1d1f;
+        background-color: #f5f5f7;
+        padding: 150px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden; }
+        div.wrapper > main > div.content6 > div.content6 > div.items > div.head {
+          width: 50%;
+          max-width: 400px;
+          min-width: 400px;
+          padding: 0 40px;
+          box-sizing: content-box; }
+          div.wrapper > main > div.content6 > div.content6 > div.items > div.head > h2 {
+            width: 100%;
+            color: #1d1d1f;
+            text-align: center;
+            margin-bottom: 9.6px;
+            font-size: 24px;
+            line-height: 1.1666666667;
+            font-weight: 600;
+            letter-spacing: 0.009em;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content6 > div.content6 > div.items > div.head > p {
+            width: 100%;
+            text-align: center;
+            font-size: 48px;
+            line-height: 1.0834933333;
+            font-weight: 600;
+            letter-spacing: -0.003em;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content6 > div.content6 > div.items > div.head > p:nth-of-type(2) {
+            max-width: 315px;
+            margin: 16.8px auto 8.4px;
+            font-size: 21px;
+            line-height: 1.1904761905;
+            font-weight: 600;
+            letter-spacing: 0.011em; }
+          div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer {
+            position: relative;
+            margin-top: 30px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0 20px;
+            z-index: 1; }
+            div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer > p:nth-of-type(1) {
+              height: fit-content;
+              text-align: center;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a {
+                cursor: pointer;
+                text-align: center;
+                white-space: nowrap;
+                font-size: 17px;
+                line-height: 1.1764805882;
+                font-weight: 400;
+                letter-spacing: -0.022em;
+                font-family: SFProText;
+                min-width: 30px;
+                padding: 7px 15px;
+                border-radius: 25px;
+                background-color: transparent;
+                color: #0066cc;
+                border: 1px solid #0066cc; }
+                div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a:hover {
+                  background: #0066cc;
+                  color: #fff; }
+            div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer > p:nth-of-type(2) {
+              height: 27px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a {
+                color: #0066cc;
+                font-size: 17px;
+                line-height: 1.2353641176;
+                font-weight: 400;
+                letter-spacing: -0.022em;
+                font-family: SFProDisplay;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a > svg {
+                  font-size: 11px;
+                  padding-top: 4.1px;
+                  margin-left: 5.1px; }
+        div.wrapper > main > div.content6 > div.content6 > div.items > div.img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: unset; }
+  div.wrapper > main > div.content7 > div.content7 {
+    margin: 0 auto;
+    padding: 30px 30px 0;
+    max-width: 1440px;
+    overflow: hidden; }
+    div.wrapper > main > div.content7 > div.content7 > div.items {
+      color: #1d1d1f;
+      background-color: #f5f5f7;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      overflow: hidden; }
+      div.wrapper > main > div.content7 > div.content7 > div.items > div.head {
+        width: 386px;
+        max-width: 390px;
+        margin: 0 auto 0 20px; }
+        div.wrapper > main > div.content7 > div.content7 > div.items > div.head > h2 {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+        div.wrapper > main > div.content7 > div.content7 > div.items > div.head > p {
+          width: 100%;
+          max-width: 300px;
+          margin: 11.4px auto 0;
+          text-align: center;
+          font-size: 21px;
+          line-height: 1.381002381;
+          font-weight: 400;
+          letter-spacing: 0.011em;
+          font-family: SFProDisplay; }
+        div.wrapper > main > div.content7 > div.content7 > div.items > div.head > div.item_footer {
+          position: relative;
+          margin-top: 13.6px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 0 20px; }
+          div.wrapper > main > div.content7 > div.content7 > div.items > div.head > div.item_footer > p {
+            height: 27px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+            div.wrapper > main > div.content7 > div.content7 > div.items > div.head > div.item_footer > p > a {
+              color: #0066cc;
+              font-size: 17px;
+              line-height: 1.2353641176;
+              font-weight: 400;
+              letter-spacing: -0.022em;
+              font-family: SFProDisplay;
+              position: relative;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content7 > div.content7 > div.items > div.head > div.item_footer > p > a > sup {
+                font-size: 10px;
+                padding: 0;
+                display: inline-block;
+                vertical-align: baseline;
+                position: absolute;
+                top: 0;
+                right: 16px;
+                font-weight: 600; }
+              div.wrapper > main > div.content7 > div.content7 > div.items > div.head > div.item_footer > p > a:hover {
+                text-decoration: underline; }
+              div.wrapper > main > div.content7 > div.content7 > div.items > div.head > div.item_footer > p > a > svg {
+                font-size: 11px;
+                margin-left: 5px; }
+          div.wrapper > main > div.content7 > div.content7 > div.items > div.head > div.item_footer > p:nth-of-type(1) > a > svg {
+            font-size: 14px; }
+      div.wrapper > main > div.content7 > div.content7 > div.items > div.img {
+        width: 56%;
+        min-width: 528px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        overflow: hidden; }
+        div.wrapper > main > div.content7 > div.content7 > div.items > div.img > img {
+          margin-top: 40px; }
+  div.wrapper > main > div.content8 > div.content8 {
+    margin: 0 auto;
+    padding: 30px 30px 0;
+    max-width: 1440px;
+    overflow: hidden; }
+    div.wrapper > main > div.content8 > div.content8 > div.items {
+      width: 80%;
+      color: #1d1d1f;
+      margin: 0 auto;
+      padding: 80px 44px 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      div.wrapper > main > div.content8 > div.content8 > div.items > h2 {
+        font-size: 48px;
+        text-align: center;
+        line-height: 1.0834933333;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+        font-family: SFProDisplay; }
+        div.wrapper > main > div.content8 > div.content8 > div.items > h2 > sup {
+          font-size: 25px;
+          padding: 0;
+          display: inline-block;
+          vertical-align: baseline;
+          position: relative;
+          top: -20px; }
+          div.wrapper > main > div.content8 > div.content8 > div.items > h2 > sup > a {
+            color: currentColor; }
+            div.wrapper > main > div.content8 > div.content8 > div.items > h2 > sup > a:hover {
+              color: #0066cc; }
+      div.wrapper > main > div.content8 > div.content8 > div.items > p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 13.6px; }
+        div.wrapper > main > div.content8 > div.content8 > div.items > p > a {
+          color: #0066cc;
+          font-size: 21px;
+          line-height: 1.19048;
+          font-weight: 400;
+          letter-spacing: 0.011em;
+          font-family: SFProDisplay;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > main > div.content8 > div.content8 > div.items > p > a:hover {
+            text-decoration: underline; }
+          div.wrapper > main > div.content8 > div.content8 > div.items > p > a > svg {
+            font-size: 13px;
+            padding-top: 5px;
+            margin-left: 5px; }
+  div.wrapper > main > div.content9 > div.content9 {
+    margin: 0 auto;
+    padding: 30px 30px 0;
+    max-width: 1440px; }
+    div.wrapper > main > div.content9 > div.content9 > div.items {
+      color: #1d1d1f;
+      background-color: #f5f5f7;
+      padding: 100px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center; }
+      div.wrapper > main > div.content9 > div.content9 > div.items > div.head {
+        width: 100%;
+        margin: 0 auto; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.head > h2 {
+          margin-bottom: 26px;
+          font-size: 28px;
+          line-height: 1.1428571429;
+          font-weight: 600;
+          letter-spacing: 0.001em;
+          font-family: SFProDisplay;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.head > p {
+          width: inherit;
+          text-align: center;
+          margin-top: 19px;
+          font-size: 48px;
+          line-height: 1.0834933333;
+          font-weight: 600;
+          letter-spacing: 0em;
+          font-family: SFProDisplay; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 34px 0 50px; }
+          div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer > p {
+            width: 180.34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 10px 22px 9px;
+            text-align: center;
+            border-radius: 100px;
+            transition: all 0.2s linear; }
+            div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer > p > a {
+              width: 100%;
+              height: 25px;
+              color: #000;
+              font-size: 18px;
+              line-height: 1.19048;
+              font-weight: 600;
+              letter-spacing: 0.011em;
+              font-family: SFProDisplay;
+              position: relative;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              z-index: 2; }
+              div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer > p > a:hover {
+                color: #0066cc; }
+            div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer > p::after, div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer > p::before {
+              content: "";
+              display: block;
+              position: absolute;
+              border-radius: inherit;
+              transition: all 0.2s linear; }
+            div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer > p::before {
+              z-index: 0;
+              width: 100%;
+              height: 100%;
+              background: linear-gradient(90deg, #fdde5c 0%, #f8ab5e 16.66667%, #f56a62 33.33333%, #a176c8 50%, #759beb 66.66667%, #65beb3 83.33333%, #70db96); }
+            div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer > p::after {
+              z-index: 1;
+              width: calc(100% - 4px);
+              height: calc(100% - 4px);
+              background: #fff; }
+      div.wrapper > main > div.content9 > div.content9 > div.items > div.img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        overflow: hidden; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_1 {
+          width: 300px;
+          height: 522px;
+          position: absolute;
+          z-index: 2; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_2 {
+          width: 200px;
+          height: 316px;
+          display: none;
+          position: absolute;
+          z-index: 2; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_3 {
+          width: 250px;
+          height: 386px;
+          display: none;
+          position: absolute;
+          z-index: 2; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_4 {
+          transform: translateX(7.5%);
+          transition: all 2s ease-in-out; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_5 {
+          display: none;
+          transform: translateX(7.5%);
+          transition: all 2s ease-in-out; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_6 {
+          display: none;
+          transform: translateX(7.5%);
+          transition: all 2s ease-in-out; }
+  div.wrapper > main > div.content10 > div.content10 {
+    margin: 0 auto;
+    padding: 30px 30px 0;
+    max-width: 1440px;
+    overflow: hidden; }
+    div.wrapper > main > div.content10 > div.content10 > div.items {
+      color: #1d1d1f;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start;
+      gap: 0 27px; }
+      div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] {
+        width: 50%;
+        height: 100%;
+        background-color: #f5f5f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; }
+        div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head {
+          width: 100%;
+          padding: 80px 44px 56px;
+          box-sizing: content-box; }
+          div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > h2 {
+            width: 100%;
+            color: #1d1d1f;
+            text-align: center;
+            font-size: 24px;
+            line-height: 1.1666666667;
+            font-weight: 600;
+            letter-spacing: 0.009em;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > p {
+            width: 100%;
+            max-width: 510px;
+            margin: 9.6px auto 0;
+            text-align: center;
+            font-size: 48px;
+            line-height: 1.0834933333;
+            font-weight: 600;
+            letter-spacing: -0.003em;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer {
+            position: relative;
+            margin-top: 17px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0 20px;
+            z-index: 1; }
+            div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer > p {
+              height: 27px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+                color: #0066cc;
+                font-size: 21px;
+                line-height: 1.381002381;
+                font-weight: 400;
+                letter-spacing: 0.0045em;
+                font-family: SFProDisplay;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer > p > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer > p > a > svg {
+                  font-size: 13px;
+                  padding-top: 4.1px;
+                  margin-left: 5.1px; }
+        div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: unset; }
+          div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.img > img {
+            object-fit: cover; }
+      div.wrapper > main > div.content10 > div.content10 > div.items > div.item_2 {
+        gap: 28px 0; }
+  div.wrapper > main > div.content11 > div.content11 {
+    margin: 0 auto;
+    padding: 30px 30px;
+    max-width: 1440px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px 0; }
+    div.wrapper > main > div.content11 > div.content11 > h3 {
+      padding: 130px 0 49px;
+      text-align: center;
+      font-size: 56px;
+      line-height: 1.0714285714;
+      font-weight: 600;
+      letter-spacing: -0.005em;
+      font-family: SFProDisplay; }
+    div.wrapper > main > div.content11 > div.content11 > div.items {
+      color: #1d1d1f;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start;
+      gap: 0 30px; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] {
+        width: 50%;
+        height: 737px;
+        background-color: #f5f5f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head {
+          width: 100%;
+          padding: 57px 44px 74px;
+          box-sizing: content-box; }
+          div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > h2 {
+            width: 100%;
+            max-width: 510px;
+            margin: 9.6px auto 0;
+            text-align: center;
+            font-size: 48px;
+            line-height: 1.0834933333;
+            font-weight: 600;
+            letter-spacing: -0.003em;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > p {
+            margin: 15px auto 13px;
+            max-width: 300px;
+            font-size: 21px;
+            line-height: 1.381002381;
+            font-weight: 400;
+            letter-spacing: 0.0045em;
+            font-family: SFProDisplay;
+            text-align: center; }
+          div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer {
+            position: relative;
+            margin-top: 17px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0 20px;
+            z-index: 1; }
+            div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer > p {
+              height: 27px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+                color: #0066cc;
+                font-size: 21px;
+                line-height: 1.381002381;
+                font-weight: 400;
+                letter-spacing: 0.0045em;
+                font-family: SFProDisplay;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }
+                div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer > p > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer > p > a > svg {
+                  font-size: 13px;
+                  padding-top: 4.1px;
+                  margin-left: 5.1px; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: unset; }
+          div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.img > img {
+            object-fit: cover; }
+          div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.img > img.img_2 {
+            display: none; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 {
+        gap: 28px 0; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 > div.head {
+          width: 370px;
+          padding-bottom: 56px;
+          z-index: 2; }
+          div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 > div.head > h2 {
+            max-width: 285px;
+            margin: 0 auto; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 > div.img {
+          position: relative;
+          top: -165px;
+          margin-bottom: -123px;
+          display: flex;
+          justify-content: center; }
+  div.wrapper > main > div.content12 > div.content12 {
+    margin: 0 auto;
+    padding: 30px 30px;
+    max-width: 1440px;
+    overflow: hidden; }
+    div.wrapper > main > div.content12 > div.content12 > div.content {
+      width: 100%;
+      padding: 0 22px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start;
+      gap: 0 27px; }
+      div.wrapper > main > div.content12 > div.content12 > div.content > div.content {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 56px;
+        text-align: center; }
+        div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] {
+          max-width: 410px;
+          flex: 1; }
+          div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] > a {
+            color: #1d1d1f;
+            max-width: 200px;
+            width: 100%;
+            padding-left: 8px;
+            padding-right: 8px;
+            margin: 0 auto;
+            padding-top: 56px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            box-sizing: content-box; }
+            div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] > a > img {
+              width: 100%;
+              height: 85px; }
+            div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] > a > h3 {
+              width: 100%;
+              font-size: 21px;
+              line-height: 1.1904761905;
+              font-weight: 600;
+              letter-spacing: 0.011em;
+              font-family: SFProDisplay;
+              margin-top: 11.13px; }
+            div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] > a > p {
+              width: 100%;
+              font-size: 19px;
+              line-height: 1.4211026316;
+              font-weight: 400;
+              letter-spacing: 0.012em;
+              font-family: SFProDisplay;
+              margin-top: 7.6px; }
+              div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] > a > p > sup {
+                font-size: 10px;
+                padding: 0;
+                display: inline-block;
+                vertical-align: baseline;
+                position: relative;
+                top: -6px;
+                left: -3px; }
+            div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] > a > p:nth-of-type(2) {
+              color: #0066cc;
+              margin-top: 15.2px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] > a > p:nth-of-type(2) > svg {
+                font-size: 12px;
+                padding: 4.7px 0 0 4.7px; }
+            div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div[class*="content"] > a:hover > p:nth-of-type(2) {
+              text-decoration: underline; }
+        div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div.content_1 a {
+          max-width: 278px; }
+        div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div.content_2 > a > p:nth-of-type(1) {
+          margin-top: 15.2px; }
+        div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div.content_2 > a > p:nth-of-type(2) {
+          display: block; }
+          div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div.content_2 > a > p:nth-of-type(2) > svg {
+            padding-top: 0;
+            padding-left: 3px; }
+  div.wrapper > main > div.content13 > div.content13 {
+    margin: 0 auto;
+    padding: 30px 30px 0;
+    max-width: 1440px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px 0; }
+    div.wrapper > main > div.content13 > div.content13 > h3 {
+      width: 100%;
+      margin: 37px 0 36px;
+      text-align: center;
+      font-size: 56px;
+      line-height: 1.0714285714;
+      font-weight: 600;
+      letter-spacing: -0.025em;
+      font-family: SFProDisplay; }
+    div.wrapper > main > div.content13 > div.content13 > div.items {
+      color: #1d1d1f;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start;
+      gap: 0 30px;
+      overflow: hidden; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] {
+        width: 50%;
+        height: 704px;
+        background-color: #f5f5f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        gap: 29px 0; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head {
+          width: 100%;
+          padding: 96px 0 65px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > h2 {
+            width: inherit;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p {
+            width: inherit;
+            margin-top: 22px;
+            text-align: center;
+            font-size: 21px;
+            line-height: 1.381002381;
+            font-weight: 400;
+            letter-spacing: 0.0045em;
+            font-family: SFProDisplay; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer {
+            position: relative;
+            margin-top: 13.6px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0 30px; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer > p {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+                color: #0066cc;
+                font-size: 21px;
+                line-height: 1.381002381;
+                font-weight: 400;
+                letter-spacing: 0.0045em;
+                font-family: SFProDisplay;
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                transition: all 1.5s; }
+                div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer > p > a > sup {
+                  font-size: 11px;
+                  padding: 0;
+                  display: inline-block;
+                  vertical-align: baseline;
+                  position: absolute;
+                  top: 0;
+                  right: 22px;
+                  font-weight: 600; }
+                div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer > p > a:hover {
+                  text-decoration: underline; }
+                div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer > p > a > svg {
+                  font-size: 12px;
+                  margin: 5px 0 0 5px; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer > p:nth-of-type(1) > a > svg {
+              font-size: 18px;
+              margin-left: 8px; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.img {
+          width: 100%;
+          margin-bottom: 62px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 {
+        position: relative;
+        gap: 0; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head {
+          width: fit-content;
+          padding: 0;
+          margin: 97px auto 0;
+          z-index: 1;
+          transition: all 1.5s; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head > h2 {
+            width: 154px;
+            height: 30px; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head > h2 > svg {
+              height: inherit;
+              fill: currentColor; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head > div.item_footer p a {
+            color: unset; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.pause {
+          width: 100%;
+          padding-top: 9px;
+          margin-top: 7px;
+          z-index: 1; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.pause > a {
+            width: inherit;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+            transition: all 1.5s; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.pause > a > svg {
+              position: relative;
+              right: 14px;
+              fill: currentColor; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.pause > a > svg:nth-of-type(2) {
+              display: none; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.pause > a:hover {
+              opacity: 0.85; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.pause > a:active {
+              opacity: 0.7; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper {
+          width: 100%;
+          height: 100%;
+          margin: 3px 0 73px; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide {
+            height: 326px;
+            background-color: #fff;
+            color: #fff;
+            margin: 0 auto;
+            border: none;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 18px;
+            box-shadow: 3px 5px 30px rgba(0, 0, 0, 0.03);
+            transform: scale(0.875);
+            transition: all 950ms ease-in-out;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            user-select: none; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > img {
+              width: 100%;
+              height: 259px; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > div.footer_item {
+              width: 100%;
+              height: 67px;
+              padding: 16px 18px 17px;
+              position: relative;
+              overflow: hidden;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center; }
+              div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > div.footer_item::before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.3); }
+              div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > div.footer_item > div.content {
+                max-width: calc(100% - 85px);
+                position: relative; }
+                div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > div.footer_item > div.content > h5 {
+                  font-size: 12px;
+                  line-height: 1.3333733333;
+                  font-weight: 700;
+                  letter-spacing: -0.01em;
+                  font-family: SFProText;
+                  text-align: left;
+                  display: block;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis; }
+                div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > div.footer_item > div.content > p {
+                  font-size: 12px;
+                  line-height: 1.3333733333;
+                  font-weight: 400;
+                  letter-spacing: -0.01em;
+                  font-family: SFProText;
+                  text-align: left;
+                  display: block;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0;
+              background-color: rgba(0, 0, 0, 0.4);
+              opacity: 0;
+              transition: opacity 300ms; }
+              div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > a > span {
+                min-width: 30px;
+                color: #1d1d1f;
+                background-color: #fff;
+                border: 1px solid transparent;
+                padding: 7px 15px;
+                border-radius: 25px;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 1.4285914286;
+                letter-spacing: -0.016em;
+                white-space: nowrap;
+                font-family: SFProText;
+                transform: translateY(15px);
+                transition: transform 400ms;
+                cursor: pointer; }
+                div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > a > span > svg {
+                  padding-left: 2.5px; }
+              div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > a:hover {
+                opacity: 1; }
+                div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > a:hover > span {
+                  transform: translateY(0); }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide-active {
+            width: 259px !important;
+            transform: scale(1);
+            margin-right: 5px !important; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide-prev {
+            margin-right: 5px !important; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="0"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="0"] > div.footer_item {
+            background-color: #2f2a24; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="1"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="1"] > div.footer_item {
+            background-color: #000; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="2"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="2"] > div.footer_item {
+            background-color: #b9beba; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="3"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="3"] > div.footer_item {
+            background-color: #0e0a0b; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="4"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="4"] > div.footer_item {
+            background-color: #340c0f; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="5"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="5"] > div.footer_item {
+            background-color: #373328; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="6"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="6"] > div.footer_item {
+            background-color: #d5af80; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="7"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="7"] > div.footer_item {
+            background-color: #19a3d1; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="8"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="8"] > div.footer_item {
+            background-color: #c5cace; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="9"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="9"] > div.footer_item {
+            background-color: #d3d5d4; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="10"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="10"] > div.footer_item {
+            background-color: #0e0906; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="11"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="11"] > div.footer_item {
+            background-color: #f0f0f0; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="12"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="12"] > div.footer_item {
+            background-color: #1d1815; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="13"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="13"] > div.footer_item {
+            background-color: #161513; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="14"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="14"] > div.footer_item {
+            background-color: #000; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="15"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="15"] > div.footer_item {
+            background-color: #76bfe8; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="16"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="16"] > div.footer_item {
+            background-color: #fff0f0; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="17"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="17"] > div.footer_item {
+            background-color: #eea9d5; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="18"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="18"] > div.footer_item {
+            background-color: #c0d1e1; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="19"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="19"] > div.footer_item {
+            background-color: #2e1928; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="20"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="20"] > div.footer_item {
+            background-color: #202125; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="21"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="21"] > div.footer_item {
+            background-color: #fafafa; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="22"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="22"] > div.footer_item {
+            background-color: #020202; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="23"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="23"] > div.footer_item {
+            background-color: #948f8b; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="24"] > img,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div[data-swiper-slide-index="24"] > div.footer_item {
+            background-color: #111a15; }
+  div.wrapper > main > div.content14 > div.content14 {
+    margin: 0 auto 30px;
+    padding: 30px 30px 0;
+    max-width: 1440px; }
+    div.wrapper > main > div.content14 > div.content14 > div.items {
+      color: #1d1d1f;
+      background-color: #f5f5f7;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      overflow: hidden; }
+      div.wrapper > main > div.content14 > div.content14 > div.items > div.head {
+        width: 50%;
+        padding: 90px 0 65px; }
+        div.wrapper > main > div.content14 > div.content14 > div.items > div.head > h2 {
+          width: 100%;
+          margin: 0 auto;
+          text-align: center;
+          font-size: 48px;
+          line-height: 1.0834933333;
+          font-weight: 600;
+          letter-spacing: -0.003em;
+          font-family: SFProDisplay; }
+        div.wrapper > main > div.content14 > div.content14 > div.items > div.head > p {
+          margin-top: 10px;
+          font-size: 21px;
+          line-height: 1.381002381;
+          font-weight: 400;
+          letter-spacing: 0.0045em;
+          font-family: SFProDisplay;
+          text-align: center; }
+        div.wrapper > main > div.content14 > div.content14 > div.items > div.head > div.item_footer {
+          margin-top: 5px;
+          position: relative;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 0 20px;
+          z-index: 1; }
+          div.wrapper > main > div.content14 > div.content14 > div.items > div.head > div.item_footer > p {
+            height: 27px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+            div.wrapper > main > div.content14 > div.content14 > div.items > div.head > div.item_footer > p > a {
+              color: #0066cc;
+              font-size: 19px;
+              line-height: 1.4211026316;
+              font-weight: 400;
+              letter-spacing: 0.012em;
+              font-family: SFProDisplay;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center; }
+              div.wrapper > main > div.content14 > div.content14 > div.items > div.head > div.item_footer > p > a:hover {
+                text-decoration: underline; }
+              div.wrapper > main > div.content14 > div.content14 > div.items > div.head > div.item_footer > p > a > svg {
+                font-size: 12px;
+                padding-top: 3px;
+                margin-left: 5.1px; }
+      div.wrapper > main > div.content14 > div.content14 > div.items > div.img {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+
+@keyframes bg {
+  0% {
+    background-color: #0071e3; }
+  100% {
+    background-color: #1d1d1f; } }
+
+@keyframes col {
+  0% {
+    color: #fff; }
+  100% {
+    color: #2997ff; } }
+
+@keyframes chev {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+div.wrapper > footer {
+  color: rgba(0, 0, 0, 0.561);
+  background-color: #f5f5f7;
+  min-width: 320px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1; }
+  div.wrapper > footer > div.container {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    box-sizing: content-box; }
+    div.wrapper > footer > div.container > div.content1 {
+      padding: 17px 0 11px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.16); }
+      div.wrapper > footer > div.container > div.content1 > ul > li {
+        padding-bottom: 9.6px;
+        font-size: 12px;
+        line-height: 1.3333733333;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        font-family: SFProText; }
+        div.wrapper > footer > div.container > div.content1 > ul > li > a {
+          color: rgba(0, 0, 0, 0.72);
+          text-decoration: underline; }
+      div.wrapper > footer > div.container > div.content1 > ul:nth-of-type(3) {
+        padding: 0 17px; }
+        div.wrapper > footer > div.container > div.content1 > ul:nth-of-type(3) > li {
+          list-style: decimal outside; }
+    div.wrapper > footer > div.container > div.content2 {
+      color: rgba(0, 0, 0, 0.72);
+      padding: 17px 0;
+      position: relative;
+      z-index: 1; }
+      div.wrapper > footer > div.container > div.content2 > div.content {
+        height: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 0 11px; }
+        div.wrapper > footer > div.container > div.content2 > div.content > a {
+          width: 14px;
+          height: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > footer > div.container > div.content2 > div.content > a > svg {
+            width: inherit;
+            height: inherit;
+            fill: rgba(0, 0, 0, 0.72);
+            padding: 0.9px; }
+          div.wrapper > footer > div.container > div.content2 > div.content > a:hover > svg {
+            fill: #000; }
+        div.wrapper > footer > div.container > div.content2 > div.content > svg {
+          font-size: 12px;
+          margin-top: 2px;
+          color: rgba(0, 0, 0, 0.48); }
+        div.wrapper > footer > div.container > div.content2 > div.content > p {
+          max-width: 100%;
+          margin-right: 7px;
+          padding: 5px 4px 3px 0;
+          font-size: 12px;
+          line-height: 1.3333733333;
+          font-weight: 400;
+          letter-spacing: -0.01em;
+          font-family: SFProText;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+    div.wrapper > footer > div.container > div.content3_1 {
+      font-size: 12px;
+      line-height: 1.3333733333;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      font-family: SFProText;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start; }
+      div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div[class*="item"] {
+          width: 100%; }
+          div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div[class*="item"] > h3 {
+            font-size: inherit;
+            color: rgba(0, 0, 0, 0.88);
+            font-weight: 600;
+            margin: 0 20px 9.6px 0; }
+          div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div[class*="item"] > ul {
+            margin-right: 20px; }
+            div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div[class*="item"] > ul > li {
+              margin-bottom: 9.6px; }
+              div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div[class*="item"] > ul > li a {
+                color: rgba(0, 0, 0, 0.72); }
+                div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div[class*="item"] > ul > li a:hover {
+                  text-decoration: underline; }
+            div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div[class*="item"] > ul > li:nth-last-of-type(1) {
+              margin-bottom: 0; }
+        div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div.item_2,
+        div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div.item_3,
+        div.wrapper > footer > div.container > div.content3_1 > div[class*="items"] > div.item_4 {
+          padding-top: 24px; }
+    div.wrapper > footer > div.container > div.content3_2 {
+      font-size: 12px;
+      line-height: 1.3333733333;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      font-family: SFProText;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start; }
+      div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] {
+          width: 100%;
+          padding-bottom: 1px;
+          position: relative;
+          overflow: hidden; }
+          div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"]::after {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0.16);
+            display: block;
+            position: absolute;
+            bottom: 0;
+            z-index: 3; }
+          div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] > h3 {
+            width: 100%;
+            height: fit-content;
+            font-size: inherit;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; }
+            div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] > h3 > button.btn_slide {
+              width: 100%;
+              background-color: #f5f5f7;
+              padding: 10px 0;
+              border: none;
+              color: rgba(0, 0, 0, 0.88);
+              font-size: inherit;
+              line-height: inherit;
+              letter-spacing: inherit;
+              font-family: inherit;
+              font-weight: 400;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+              cursor: pointer;
+              z-index: 2; }
+              div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] > h3 > button.btn_slide > svg {
+                transition: all 300ms ease; }
+          div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] > ul {
+            width: 100%;
+            margin: 0;
+            overflow: hidden;
+            padding: 5px 0 16px;
+            position: absolute;
+            top: 100%;
+            opacity: 0;
+            transform: translateY(-100px);
+            z-index: -1; }
+            div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] > ul > li {
+              width: 100%;
+              height: fit-content;
+              margin-bottom: 0; }
+              div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] > ul > li a {
+                width: 100%;
+                color: rgba(0, 0, 0, 0.72);
+                padding: 6px 14px;
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center; }
+                div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] > ul > li a:hover {
+                  text-decoration: underline; }
+            div.wrapper > footer > div.container > div.content3_2 > div[class*="items"] > div[class*="item"] > ul > li:nth-last-of-type(1) {
+              margin-bottom: 0; }
+    div.wrapper > footer > div.container > div.content4 {
+      padding: 37px 0 11px; }
+      div.wrapper > footer > div.container > div.content4 > div.item_1 {
+        margin-bottom: 16px;
+        padding-bottom: 19px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        font-size: 12px;
+        line-height: 1.3333733333;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        font-family: SFProText; }
+        div.wrapper > footer > div.container > div.content4 > div.item_1 > p > a {
+          color: #0066cc;
+          text-decoration: underline; }
+      div.wrapper > footer > div.container > div.content4 > div.item_2 {
+        padding-top: 1px;
+        position: relative;
+        font-size: 12px;
+        line-height: 1.3333733333;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        font-family: SFProText;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center; }
+        div.wrapper > footer > div.container > div.content4 > div.item_2 > p:nth-of-type(1) {
+          margin: 5px 30px 5px 0;
+          position: relative;
+          top: -5px; }
+        div.wrapper > footer > div.container > div.content4 > div.item_2 > ul {
+          margin-right: 30px;
+          position: relative;
+          top: -5px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          div.wrapper > footer > div.container > div.content4 > div.item_2 > ul > li {
+            margin: 5px 6px 5px 0;
+            position: relative; }
+            div.wrapper > footer > div.container > div.content4 > div.item_2 > ul > li > a {
+              color: rgba(0, 0, 0, 0.72);
+              padding: 0 8px 0 3px; }
+              div.wrapper > footer > div.container > div.content4 > div.item_2 > ul > li > a:hover {
+                text-decoration: underline; }
+            div.wrapper > footer > div.container > div.content4 > div.item_2 > ul > li::after {
+              content: "";
+              width: 1px;
+              height: 10px;
+              background-color: rgba(0, 0, 0, 0.48);
+              margin: 3px 0;
+              position: absolute; }
+            div.wrapper > footer > div.container > div.content4 > div.item_2 > ul > li:nth-last-of-type(1)::after {
+              all: unset; }
+            div.wrapper > footer > div.container > div.content4 > div.item_2 > ul > li:nth-of-type(1) > a {
+              padding: 0 9px 0 0; }
+        div.wrapper > footer > div.container > div.content4 > div.item_2 > p:nth-of-type(2) {
+          position: absolute;
+          top: 1px;
+          right: 0;
+          z-index: 2; }
+          div.wrapper > footer > div.container > div.content4 > div.item_2 > p:nth-of-type(2) > a {
+            color: rgba(0, 0, 0, 0.72); }
+            div.wrapper > footer > div.container > div.content4 > div.item_2 > p:nth-of-type(2) > a:hover {
+              text-decoration: underline; }
+
+@media screen and (max-width: 1286px) {
+  div.wrapper > header > div.container_2 {
+    display: none; }
+  div.wrapper > header > div.products > div.items > div.navigation > button {
+    z-index: 10; }
+  div.wrapper > header > div.products > div.items > div.navigation > button.next {
+    opacity: 1; }
+  div.wrapper > footer > div.container > div.content3_2 {
+    display: none; } }
+
+@media screen and (min-width: 1286px) {
+  div.wrapper > header > div.container_2 {
+    display: none; }
+  div.wrapper > footer > div.container > div.content3_2 {
+    display: none; } }
+
+@media screen and (max-width: 1068px) {
+  div.wrapper > header > div.shop > div.content {
+    width: 692px; }
+  div.wrapper > main > div.content1 > div.content1 {
+    padding: 0 20px;
+    max-width: 790px; }
+    div.wrapper > main > div.content1 > div.content1 > div.items > div.head {
+      width: 368px; }
+      div.wrapper > main > div.content1 > div.content1 > div.items > div.head > h2 > img {
+        width: 110px;
+        height: 43px; }
+      div.wrapper > main > div.content1 > div.content1 > div.items > div.head > p {
+        font-size: 32px;
+        line-height: 1.125; }
+      div.wrapper > main > div.content1 > div.content1 > div.items > div.head > p:nth-of-type(2) {
+        font-size: 19px;
+        line-height: 1.4211026316;
+        letter-spacing: 0.0075em; }
+      div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a,
+      div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(3) > a {
+        font-size: 17px;
+        line-height: 1.2353641176;
+        letter-spacing: -0.022em;
+        font-family: SFProText; }
+      div.wrapper > main > div.content1 > div.content1 > div.items > div.head > div.item_footer > p:nth-of-type(2) {
+        margin-right: 10px; }
+    div.wrapper > main > div.content1 > div.content1 > div.items > div.img {
+      margin-top: 0; }
+      div.wrapper > main > div.content1 > div.content1 > div.items > div.img > img {
+        width: 1057px;
+        height: 443px; }
+  div.wrapper > main > div.content2 {
+    padding-top: 10px; }
+    div.wrapper > main > div.content2 > div.content2 {
+      padding: 40px 20px 0;
+      max-width: 790px; }
+      div.wrapper > main > div.content2 > div.content2 > div.items {
+        padding: 0 0 70px; }
+        div.wrapper > main > div.content2 > div.content2 > div.items > div.head {
+          padding: 0;
+          width: 350px; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > h2 > img {
+            width: 108px;
+            height: 42px; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > p {
+            width: inherit;
+            font-size: 32px;
+            line-height: 1.125; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > p:nth-of-type(2) {
+            font-size: 19px;
+            line-height: 1.4211026316;
+            letter-spacing: 0.0075em; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a {
+            font-size: 17px;
+            line-height: 1.2353641176;
+            letter-spacing: -0.022em;
+            font-family: SFProText; }
+          div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.img {
+            margin-top: 40px; }
+            div.wrapper > main > div.content2 > div.content2 > div.items > div.head > div.img > img {
+              width: 1068px;
+              height: 424px; }
+  div.wrapper > main > div.content3 > div.content3 {
+    padding: 0 20px; }
+    div.wrapper > main > div.content3 > div.content3 > div.items {
+      padding: 50px 0 55px; }
+      div.wrapper > main > div.content3 > div.content3 > div.items > div.head {
+        padding: 110px 0 33px;
+        max-width: 40%; }
+        div.wrapper > main > div.content3 > div.content3 > div.items > div.head > h2 > img {
+          width: 109px;
+          height: 42px; }
+        div.wrapper > main > div.content3 > div.content3 > div.items > div.head > p {
+          width: 100%;
+          margin-top: 13px;
+          font-size: 32px;
+          line-height: 1.125; }
+        div.wrapper > main > div.content3 > div.content3 > div.items > div.head > p:nth-of-type(2) {
+          font-size: 19px;
+          line-height: 1.4211026316;
+          letter-spacing: 0.0075em; }
+        div.wrapper > main > div.content3 > div.content3 > div.items > div.head > div.item_footer > p:nth-of-type(2) > a {
+          font-size: 17px;
+          line-height: 1.2353641176;
+          letter-spacing: -0.022em;
+          font-family: SFProText; }
+      div.wrapper > main > div.content3 > div.content3 > div.items > div.img > img {
+        width: 387px;
+        height: 419px; }
+  div.wrapper > main > div.content4 > div.content4 {
+    padding: 40px 20px 0;
+    max-width: 790px; }
+    div.wrapper > main > div.content4 > div.content4 > div.items {
+      padding: 20px 0 0; }
+      div.wrapper > main > div.content4 > div.content4 > div.items > div.head {
+        padding: 0;
+        width: 350px; }
+        div.wrapper > main > div.content4 > div.content4 > div.items > div.head > h2 > img {
+          width: 203px;
+          height: 45px; }
+        div.wrapper > main > div.content4 > div.content4 > div.items > div.head > p {
+          padding: 0 20px;
+          margin-top: 12px;
+          font-size: 32px;
+          line-height: 1.125; }
+        div.wrapper > main > div.content4 > div.content4 > div.items > div.head > div.item_footer > p > a {
+          font-size: 17px;
+          line-height: 1.2353641176;
+          letter-spacing: -0.022em;
+          font-family: SFProText; }
+      div.wrapper > main > div.content4 > div.content4 > div.items > div.img {
+        margin-top: 10px; }
+        div.wrapper > main > div.content4 > div.content4 > div.items > div.img > img {
+          width: 274px;
+          height: 227px; }
+  div.wrapper > main > div.content5 {
+    margin-bottom: 80px; }
+    div.wrapper > main > div.content5 > div.content5 > h2 {
+      font-size: 40px;
+      line-height: 1.1;
+      letter-spacing: 0em; }
+    div.wrapper > main > div.content5 > div.content5 > div.container {
+      max-width: 694px;
+      gap: 0 30px; }
+      div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.img > img {
+        width: 176px;
+        height: 205px; }
+      div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.head > h3 {
+        font-size: 17px;
+        line-height: 1.2353641176;
+        letter-spacing: -0.022em;
+        font-family: SFProText; }
+  div.wrapper > main > div.content6 > div.content6 {
+    padding: 0 20px;
+    max-width: 790px; }
+    div.wrapper > main > div.content6 > div.content6 > div.items {
+      padding: 85px 0; }
+      div.wrapper > main > div.content6 > div.content6 > div.items > div.head {
+        max-width: 270px;
+        min-width: unset;
+        padding: 0; }
+        div.wrapper > main > div.content6 > div.content6 > div.items > div.head > h2 {
+          font-size: 21px;
+          line-height: 1.1904761905;
+          letter-spacing: 0.011em; }
+        div.wrapper > main > div.content6 > div.content6 > div.items > div.head > p {
+          font-size: 32px;
+          line-height: 1.125;
+          letter-spacing: 0.004em; }
+        div.wrapper > main > div.content6 > div.content6 > div.items > div.head > p:nth-of-type(2) {
+          font-size: 19px;
+          line-height: 1.2105263158;
+          letter-spacing: 0.012em; }
+        div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer {
+          flex-direction: column;
+          flex-wrap: nowrap; }
+          div.wrapper > main > div.content6 > div.content6 > div.items > div.head > div.item_footer > p:nth-of-type(1) {
+            margin-bottom: 20px; }
+      div.wrapper > main > div.content6 > div.content6 > div.items > div.img > img {
+        width: 351px;
+        height: 247px; }
+  div.wrapper > main > div.content7 > div.content7 {
+    padding: 0 20px;
+    max-width: 790px; }
+    div.wrapper > main > div.content7 > div.content7 > div.items > div.head {
+      width: 54%;
+      margin: 0; }
+      div.wrapper > main > div.content7 > div.content7 > div.items > div.head > h2 > img {
+        width: 141px;
+        height: 27px; }
+      div.wrapper > main > div.content7 > div.content7 > div.items > div.head > p > br {
+        display: none; }
+    div.wrapper > main > div.content7 > div.content7 > div.items > div.img {
+      width: 44%;
+      min-width: 312px; }
+      div.wrapper > main > div.content7 > div.content7 > div.items > div.img > img {
+        width: 312px;
+        height: 320px; }
+  div.wrapper > main > div.content8 > div.content8 {
+    padding: 0 20px;
+    max-width: 790px; }
+    div.wrapper > main > div.content8 > div.content8 > div.items {
+      padding: 58px 0 42px;
+      width: 100%;
+      margin: auto; }
+      div.wrapper > main > div.content8 > div.content8 > div.items > h2 {
+        width: 600px;
+        margin: 0;
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: 0em; }
+        div.wrapper > main > div.content8 > div.content8 > div.items > h2 > sup {
+          top: -12px; }
+      div.wrapper > main > div.content8 > div.content8 > div.items > p > a {
+        font-size: 19px;
+        line-height: 1.4211026316;
+        letter-spacing: 0.0075em; }
+  div.wrapper > main > div.content9 > div.content9 {
+    padding: 30px 20px 0;
+    max-width: 790px; }
+    div.wrapper > main > div.content9 > div.content9 > div.items {
+      padding: 80px 0; }
+      div.wrapper > main > div.content9 > div.content9 > div.items > div.head > h2 {
+        font-size: 24px;
+        line-height: 1.1666666667;
+        letter-spacing: 0.009em; }
+      div.wrapper > main > div.content9 > div.content9 > div.items > div.head > p {
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: 0em; }
+      div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer {
+        width: 100%;
+        margin: 30px 0 50px; }
+      div.wrapper > main > div.content9 > div.content9 > div.items > div.img {
+        width: 100%;
+        justify-content: center;
+        min-width: auto; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_1 {
+          display: none; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_3 {
+          display: block; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_4 {
+          display: none; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_6 {
+          display: block; }
+  div.wrapper > main > div.content10 > div.content10 {
+    padding: 30px 20px 0;
+    max-width: 790px; }
+    div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head {
+      padding: 58px 0 50px; }
+      div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > h2 {
+        font-size: 21px;
+        line-height: 1.19048;
+        letter-spacing: 0.011em; }
+      div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > p {
+        max-width: 300px;
+        margin: 5.6px auto 0;
+        font-size: 28px;
+        line-height: 1.1428571429;
+        letter-spacing: 0.001em; }
+      div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer {
+        margin-top: 11px; }
+        div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+          font-size: 19px;
+          line-height: 1.4211026316;
+          letter-spacing: 0.0075em; }
+    div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.img > img {
+      width: 373px;
+      height: 250px;
+      object-fit: unset; }
+    div.wrapper > main > div.content10 > div.content10 > div.items > div.item_2 {
+      gap: 0; }
+      div.wrapper > main > div.content10 > div.content10 > div.items > div.item_2 > div.img > img {
+        transform: scale(0.9); }
+  div.wrapper > main > div.content11 > div.content11 {
+    padding: 30px 20px 0;
+    max-width: 790px; }
+    div.wrapper > main > div.content11 > div.content11 > h3 {
+      padding: 72px 0 36px;
+      font-size: 40px;
+      line-height: 1.15;
+      letter-spacing: 0.009em; }
+    div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] {
+      width: 100%;
+      height: 100%; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head {
+        padding: 73px 0 59px;
+        width: 100%; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > h2 {
+          padding: 0 25px;
+          font-size: 40px;
+          line-height: 1.1;
+          letter-spacing: 0em; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > p {
+          max-width: 278px;
+          margin: 18px auto 21px;
+          font-size: 19px;
+          line-height: 1.4211026316;
+          letter-spacing: 0.0075em; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer {
+          margin-top: 11px; }
+          div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+            font-size: 19px;
+            line-height: 1.4211026316;
+            letter-spacing: 0.0075em; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.img > img:nth-of-type(1) {
+        display: none; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.img > img.img_2 {
+        display: block;
+        width: 360px;
+        height: 290px; }
+    div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 {
+      gap: 102.6px 0; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 > div.img > img:nth-of-type(1) {
+        display: block;
+        width: 360px;
+        height: 282px; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 > div.img > img.img_2 {
+        display: none; }
+  div.wrapper > main > div.content12 > div.content12 {
+    padding: 30px 20px;
+    max-width: 790px; }
+    div.wrapper > main > div.content12 > div.content12 > div.content {
+      padding: 0; }
+  div.wrapper > main > div.content13 > div.content13 {
+    padding: 8px 20px 0;
+    max-width: 790px; }
+    div.wrapper > main > div.content13 > div.content13 > h3 {
+      margin: 0 auto 24px;
+      font-size: 40px;
+      line-height: 1.15;
+      letter-spacing: -0.025em; }
+    div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] {
+      width: 100%;
+      height: 100%; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head {
+        padding: 75px 0 45px;
+        width: 100%; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > h2 > img {
+          width: 88px;
+          height: 30px; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p {
+          margin-top: 14px;
+          font-size: 19px;
+          line-height: 1.4211026316;
+          letter-spacing: 0.0075em; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p > br.small {
+            display: none; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p > br.medium {
+            display: block; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p > br.large {
+            display: none; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer {
+          margin-top: 11px; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+            font-size: 19px;
+            line-height: 1.4211026316;
+            letter-spacing: 0.0075em; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.img > img {
+        width: 349px;
+        height: 191px; }
+    div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head {
+      padding: 0;
+      margin-top: 75px; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head > h2 {
+        width: 100px; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head > p {
+        margin-top: 14px; }
+    div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper {
+      margin-top: 20px; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide {
+        height: 188px; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > img {
+          height: 150px; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > div.footer_item > div.content {
+          max-width: 80%; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > div.footer_item > div.content > h5,
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > div.footer_item > div.content > p {
+            font-size: 7px;
+            line-height: 1.3333733333;
+            letter-spacing: -0.01em; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide > a > span {
+          font-size: 10px;
+          line-height: 0.125;
+          letter-spacing: -0.005em; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide-active {
+        width: 166px !important; }
+  div.wrapper > main > div.content14 > div.content14 {
+    padding: 30px 20px;
+    max-width: 790px;
+    margin: 0 auto; }
+    div.wrapper > main > div.content14 > div.content14 > div.items > div.head {
+      padding: 75px 0 45px; }
+      div.wrapper > main > div.content14 > div.content14 > div.items > div.head > h2 {
+        font-size: 32px;
+        line-height: 1.125;
+        letter-spacing: 0.004em; }
+      div.wrapper > main > div.content14 > div.content14 > div.items > div.head > p {
+        margin-top: 7px;
+        font-size: 19px;
+        line-height: 1.4211026316;
+        letter-spacing: 0.0075em; }
+      div.wrapper > main > div.content14 > div.content14 > div.items > div.head > div.item_footer > p > a {
+        font-size: 19px;
+        line-height: 1.4211026316;
+        letter-spacing: 0.012em; }
+    div.wrapper > main > div.content14 > div.content14 > div.items > div.img > img {
+      height: 285px; } }
+
+@media screen and (max-width: 866px) {
+  div.wrapper > header > div.container_1 > ul {
+    gap: 3.3px; }
+    div.wrapper > header > div.container_1 > ul > li {
+      width: 40%; } }
+
+@media screen and (max-width: 833px) {
+  div.wrapper > header > div.container_1 {
+    display: none; }
+  div.wrapper > header > div.container_2 {
+    display: block; }
+  div.wrapper > footer > div.container {
+    padding: 0 16px; }
+    div.wrapper > footer > div.container > div.content2 {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.16); }
+    div.wrapper > footer > div.container > div.content3_1 {
+      display: none; }
+    div.wrapper > footer > div.container > div.content3_2 {
+      display: flex; }
+    div.wrapper > footer > div.container > div.content4 {
+      padding-top: 17px; }
+      div.wrapper > footer > div.container > div.content4 > div.item_1 {
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+        border-bottom: none; }
+      div.wrapper > footer > div.container > div.content4 > div.item_2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start; }
+        div.wrapper > footer > div.container > div.content4 > div.item_2 > p:nth-of-type(1) {
+          width: 100%;
+          order: 2; }
+        div.wrapper > footer > div.container > div.content4 > div.item_2 > ul {
+          width: 100%;
+          justify-content: start;
+          flex-wrap: wrap;
+          order: 3; }
+          div.wrapper > footer > div.container > div.content4 > div.item_2 > ul > li {
+            margin-top: 0; }
+        div.wrapper > footer > div.container > div.content4 > div.item_2 > p:nth-of-type(2) {
+          width: 100%;
+          padding-bottom: 17px;
+          order: 1;
+          position: relative; } }
+
+@media screen and (max-width: 734px) {
+  div.wrapper > header > div.shop > div.content {
+    width: 87.5%; }
+    div.wrapper > header > div.shop > div.content > div.content > p {
+      flex-direction: column; }
+  div.wrapper > main > div.content1 > div.content1 {
+    padding: 0;
+    max-width: none; }
+    div.wrapper > main > div.content1 > div.content1 > div.items > div.head {
+      padding: 55px 0 0;
+      width: unset; }
+      div.wrapper > main > div.content1 > div.content1 > div.items > div.head > p:nth-of-type(2) {
+        font-size: 17px;
+        line-height: 1.4705882353;
+        letter-spacing: -0.022em;
+        font-family: SFProText; }
+    div.wrapper > main > div.content1 > div.content1 > div.items > div.img > img {
+      width: 742px;
+      height: 366px; }
+  div.wrapper > main > div.content2 > div.content2 {
+    padding: 40px 0 0;
+    max-width: none; }
+    div.wrapper > main > div.content2 > div.content2 > div.items {
+      padding-bottom: 60px; }
+      div.wrapper > main > div.content2 > div.content2 > div.items > div.head {
+        padding: 0;
+        width: unset; }
+        div.wrapper > main > div.content2 > div.content2 > div.items > div.head > p:nth-of-type(2) {
+          font-size: 17px;
+          line-height: 1.4705882353;
+          letter-spacing: -0.022em;
+          font-family: SFProText; }
+      div.wrapper > main > div.content2 > div.content2 > div.items > div.img {
+        margin-top: 20px; }
+        div.wrapper > main > div.content2 > div.content2 > div.items > div.img > img {
+          width: 721px;
+          height: 298px; }
+  div.wrapper > main > div.content3 > div.content3 {
+    padding: 0;
+    max-width: none; }
+    div.wrapper > main > div.content3 > div.content3 > div.items {
+      padding: 50px 0 55px;
+      flex-direction: column-reverse;
+      align-items: center; }
+      div.wrapper > main > div.content3 > div.content3 > div.items > div.head {
+        padding: 0;
+        width: 100%;
+        max-width: none; }
+        div.wrapper > main > div.content3 > div.content3 > div.items > div.head > p:nth-of-type(2) {
+          font-size: 17px;
+          line-height: 1.4705882353;
+          letter-spacing: -0.022em;
+          font-family: SFProText; }
+      div.wrapper > main > div.content3 > div.content3 > div.items > div.img {
+        margin-bottom: 45px; }
+        div.wrapper > main > div.content3 > div.content3 > div.items > div.img > img {
+          width: 308px;
+          height: 334px; }
+  div.wrapper > main > div.content4 > div.content4 {
+    padding: 40px 0 0;
+    max-width: none; }
+    div.wrapper > main > div.content4 > div.content4 > div.items {
+      padding-top: 10px; }
+      div.wrapper > main > div.content4 > div.content4 > div.items > div.head {
+        padding: 0;
+        width: unset; }
+      div.wrapper > main > div.content4 > div.content4 > div.items > div.img {
+        margin-top: 13px; }
+        div.wrapper > main > div.content4 > div.content4 > div.items > div.img > img {
+          width: 305px;
+          height: 252px; }
+  div.wrapper > main > div.content5 {
+    margin-bottom: 80px; }
+    div.wrapper > main > div.content5 > div.content5 > h2 {
+      font-size: 32px;
+      line-height: 1.125;
+      letter-spacing: 0.004em; }
+    div.wrapper > main > div.content5 > div.content5 > div.container {
+      max-width: 500px;
+      margin-bottom: 40px;
+      gap: 0 10px; }
+      div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] {
+        width: calc((100% - 10px) / 2);
+        flex: none; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.img > img {
+          width: 140px;
+          height: 164px;
+          margin: 0 auto 16px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.colors > p.more {
+          display: inline-block;
+          margin-left: 6px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div[class*="item"] > div.head {
+          margin-bottom: 38px; }
+        div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 {
+          margin-bottom: 38px; }
+          div.wrapper > main > div.content5 > div.content5 > div.container > div[class*="item"] > div.item_2 > div[class*="content"] {
+            margin-top: 38px; }
+      div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors div.color5 {
+        display: none; }
+      div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors div.color6 {
+        display: none; }
+      div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors div.color7 {
+        display: none; }
+      div.wrapper > main > div.content5 > div.content5 > div.container > div.item_2 > div.item_1 > div.colors div.color8 {
+        display: none; }
+      div.wrapper > main > div.content5 > div.content5 > div.container > div.item_3 {
+        margin-top: 58px; }
+    div.wrapper > main > div.content5 > div.content5 > p {
+      flex-direction: column;
+      gap: 6px 0; }
+      div.wrapper > main > div.content5 > div.content5 > p > a {
+        font-size: 21px;
+        line-height: 1.381002381;
+        letter-spacing: 0.011em; }
+      div.wrapper > main > div.content5 > div.content5 > p > a:nth-of-type(2) {
+        margin-left: 0; }
+  div.wrapper > main > div.content6 {
+    background: #f5f5f7;
+    margin-bottom: 30px; }
+    div.wrapper > main > div.content6 > div.content6 {
+      padding: 0;
+      max-width: 414px; }
+      div.wrapper > main > div.content6 > div.content6 > div.items {
+        padding: 60px 0;
+        flex-direction: column-reverse; }
+        div.wrapper > main > div.content6 > div.content6 > div.items > div.head {
+          width: 100%;
+          max-width: 270px;
+          min-width: unset;
+          padding: 0;
+          margin-top: 54px; }
+          div.wrapper > main > div.content6 > div.content6 > div.items > div.head > h2 {
+            font-size: 17px;
+            line-height: 1.4705882353;
+            letter-spacing: -0.022em;
+            font-family: SFProText; }
+          div.wrapper > main > div.content6 > div.content6 > div.items > div.head > p {
+            font-size: 28px;
+            line-height: 1.1428571429;
+            letter-spacing: 0.001em; }
+          div.wrapper > main > div.content6 > div.content6 > div.items > div.head > p:nth-of-type(2) {
+            font-size: 17px;
+            line-height: 1.2353641176;
+            font-weight: 600;
+            letter-spacing: -0.022em;
+            font-family: SFProText; }
+        div.wrapper > main > div.content6 > div.content6 > div.items > div.img > img {
+          width: 328px;
+          height: 235px; }
+  div.wrapper > main > div.content7 {
+    background: #f5f5f7; }
+    div.wrapper > main > div.content7 > div.content7 {
+      padding: 0;
+      max-width: 414px; }
+      div.wrapper > main > div.content7 > div.content7 > div.items {
+        flex-direction: column-reverse; }
+        div.wrapper > main > div.content7 > div.content7 > div.items > div.head {
+          width: 100%;
+          padding-top: 40px; }
+          div.wrapper > main > div.content7 > div.content7 > div.items > div.head > h2 > img {
+            width: 142px;
+            height: 27px; }
+          div.wrapper > main > div.content7 > div.content7 > div.items > div.head > p {
+            max-width: 280px;
+            font-size: 19px;
+            line-height: 1.4211026316;
+            letter-spacing: 0.012em; }
+            div.wrapper > main > div.content7 > div.content7 > div.items > div.head > p > br {
+              display: none; }
+        div.wrapper > main > div.content7 > div.content7 > div.items > div.img {
+          width: 100%;
+          justify-content: center;
+          min-width: auto; }
+          div.wrapper > main > div.content7 > div.content7 > div.items > div.img > img {
+            margin-top: 16px;
+            width: 324px;
+            height: 327px; }
+  div.wrapper > main > div.content8 > div.content8 {
+    padding: 0;
+    max-width: 414px; }
+    div.wrapper > main > div.content8 > div.content8 > div.items {
+      padding: 58px 0 36px;
+      width: 100%;
+      margin: auto; }
+      div.wrapper > main > div.content8 > div.content8 > div.items > h2 {
+        width: 280px;
+        font-size: 32px;
+        line-height: 1.125;
+        letter-spacing: 0.004em; }
+        div.wrapper > main > div.content8 > div.content8 > div.items > h2 > sup {
+          top: -9px; }
+      div.wrapper > main > div.content8 > div.content8 > div.items > p > a {
+        font-size: 17px;
+        line-height: 1.4705882353;
+        letter-spacing: -0.022em; }
+  div.wrapper > main > div.content9 > div.content9 {
+    padding: 30px 0 0;
+    max-width: 414px; }
+    div.wrapper > main > div.content9 > div.content9 > div.items {
+      padding: 60px 0; }
+      div.wrapper > main > div.content9 > div.content9 > div.items > div.head {
+        padding: 0 20px; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.head > h2 {
+          margin-bottom: 12px;
+          font-size: 21px;
+          line-height: 1.1904761905;
+          letter-spacing: 0.011em; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.head > p {
+          font-size: 32px;
+          line-height: 1.125;
+          letter-spacing: 0.004em; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.head > div.item_footer {
+          width: 100%;
+          margin: 22px 0 35px; }
+      div.wrapper > main > div.content9 > div.content9 > div.items > div.img {
+        width: 100%;
+        justify-content: center;
+        min-width: auto; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_1 {
+          display: none; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_2 {
+          display: block; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_3 {
+          display: none; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_4 {
+          display: none; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_5 {
+          display: block; }
+        div.wrapper > main > div.content9 > div.content9 > div.items > div.img > img.img_6 {
+          display: none; }
+  div.wrapper > main > div.content10 > div.content10 {
+    padding: 30px 0 0;
+    max-width: 414px; }
+    div.wrapper > main > div.content10 > div.content10 > div.items {
+      flex-direction: column;
+      gap: 30px 0; }
+      div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] {
+        width: 100%; }
+        div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > p {
+          max-width: 320px;
+          margin: 6.4px auto 0;
+          font-size: 32px;
+          line-height: 1.125;
+          letter-spacing: 0.004em; }
+        div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer {
+          width: auto; }
+          div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+            font-size: 17px;
+            line-height: 1.4705882353;
+            letter-spacing: -0.022em; }
+        div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.img > img {
+          width: 414px;
+          height: 336px;
+          object-fit: cover; }
+      div.wrapper > main > div.content10 > div.content10 > div.items > div.item_2 {
+        gap: 0; }
+        div.wrapper > main > div.content10 > div.content10 > div.items > div.item_2 > div.head > p {
+          padding: 0 18px; }
+  div.wrapper > main > div.content11 > div.content11 {
+    padding: 30px 0 0;
+    max-width: 414px; }
+    div.wrapper > main > div.content11 > div.content11 > h3 {
+      padding: 72px 10px 36px; }
+    div.wrapper > main > div.content11 > div.content11 > div.items {
+      flex-direction: column;
+      gap: 30px 0; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] {
+        width: 100%;
+        height: 100%; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > h2 {
+          padding: 0;
+          font-size: 32px;
+          line-height: 1.125;
+          letter-spacing: 0.004em; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > p {
+          max-width: 233px;
+          margin: 12px auto 10px;
+          font-size: 17px;
+          line-height: 1.4705882353;
+          letter-spacing: -0.022em; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer {
+          width: auto; }
+          div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+            font-size: 17px;
+            line-height: 1.4705882353;
+            letter-spacing: -0.022em; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.img > img:nth-of-type(1) {
+          display: none; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div[class*="item"] > div.img > img.img_2 {
+          display: block;
+          width: 414px;
+          height: 290px; }
+      div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 {
+        gap: 60px 0; }
+        div.wrapper > main > div.content11 > div.content11 > div.items > div.item_2 > div.head > h2 {
+          max-width: 178px;
+          margin: 0 auto; }
+  div.wrapper > main > div.content12 > div.content12 {
+    padding: 30px 0;
+    max-width: 414px; }
+    div.wrapper > main > div.content12 > div.content12 > div.content > div.content {
+      padding-top: 8px;
+      flex-direction: column; }
+      div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div.content_2 a,
+      div.wrapper > main > div.content12 > div.content12 > div.content > div.content > div.content_3 a {
+        padding-top: 36px; }
+  div.wrapper > main > div.content13 > div.content13 {
+    padding: 8px 0 0;
+    max-width: 414px; }
+    div.wrapper > main > div.content13 > div.content13 > h3 {
+      max-width: 300px;
+      padding: 0 29px; }
+    div.wrapper > main > div.content13 > div.content13 > div.items {
+      flex-direction: column;
+      gap: 30px 0; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] {
+        width: 100%;
+        height: 100%;
+        gap: 0; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head {
+          padding: 65px 0 40px; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > h2 {
+            height: 38.5px; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > h2 > img {
+              width: 84px;
+              height: 28px; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p {
+            font-size: 17px;
+            line-height: 1.4705882353;
+            letter-spacing: 0.05em; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p > br.small {
+              display: block; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p > br.medium {
+              display: none; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > p > br.large {
+              display: none; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer {
+            width: auto; }
+            div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.head > div.item_footer > p > a {
+              font-size: 17px;
+              line-height: 1.4705882353;
+              letter-spacing: 0.05em; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div[class*="item"] > div.img > img {
+          width: 328px;
+          height: 179px; }
+      div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 {
+        gap: 10px 0; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head {
+          padding: 0; }
+          div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.head > h2 {
+            max-width: 178px;
+            margin: 0 auto; }
+        div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper {
+          margin-bottom: 57px !important; }
+  div.wrapper > main > div.content14 > div.content14 {
+    padding: 30px 0;
+    max-width: none; }
+    div.wrapper > main > div.content14 > div.content14 > div.items > div.head {
+      padding: 65px 0 40px; }
+      div.wrapper > main > div.content14 > div.content14 > div.items > div.head > p {
+        font-size: 17px;
+        line-height: 1.2353641176;
+        letter-spacing: -0.022em;
+        font-family: SFProText; }
+      div.wrapper > main > div.content14 > div.content14 > div.items > div.head > div.item_footer > p > a {
+        font-size: 17px;
+        line-height: 1.2353641176;
+        letter-spacing: -0.022em;
+        font-family: SFProText; }
+    div.wrapper > main > div.content14 > div.content14 > div.items > div.img > img {
+      width: 560px;
+      height: 330px; } }
+
+@media screen and (max-width: 641px) {
+  div.wrapper > header > div.container_2 > div.menu > div.content > div[class*="submenu"] > div.contents > div[class*="item"] {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding-right: unset;
+    margin-right: unset; } }
+
+@media screen and (max-width: 338px) {
+  div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_1 > div.head > h3 {
+    height: 47px; }
+  div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_2 div.content2 > p {
+    height: 61px; }
+  div.wrapper > main > div.content13 > div.content13 > div.items > div.item_2 > div.swiper > div.swiper-wrapper > div.swiper-slide-active {
+    width: 142px !important; } }
+
+@media screen and (max-width: 341px) {
+  div.wrapper > main > div.content5 > div.content5 > div.container > div.item_1 > div.item_1 > div.head > p {
+    height: 60px; } }
+
+@media screen and (max-width: 374px) {
+  div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > p {
+    padding: 0 30px; }
+    div.wrapper > main > div.content10 > div.content10 > div.items > div[class*="item"] > div.head > p > br {
+      display: none; }
+  div.wrapper > main > div.content10 > div.content10 > div.items > div.item_2 > div.head > p {
+    padding: 0 18px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none; }
+
+div.wrapper {
+  overflow: hidden; }
+
+br.large {
+  display: block; }
+
+br.medium {
+  display: none; }
+
+br.small {
+  display: none; }
+
+br.xs-only {
+  display: none; }
+
+p.not_have {
+  margin-top: 11.2px;
+  position: relative; }
+  p.not_have::before {
+    content: "";
+    width: 6px;
+    height: 1px;
+    background-color: #1d1d1f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50px;
+    transform: translate3d(-50%, -50%, 0); }
+
+p.hover::before {
+  transform: scale(1.00568, 1.02273); }
+
+p.hover::after {
+  transform: scale(0.99419, 0.975); }
+
+img.transform {
+  transform: translateX(0) !important; }
+
+div.slide_show::after {
+  opacity: 1 !important; }
+
+.white_color {
+  color: #fff !important; }
+
+.color_3 {
+  color: #0066cc !important; }
+
+.color_5 {
+  color: #1d1d1f !important; }
+
+div.backdrop {
+  width: 100%;
+  height: 110vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  position: fixed;
+  inset: 0;
+  transition: all 320ms cubic-bezier(0.4, 0, 0.6, 1) 80ms;
+  backdrop-filter: blur(20px);
+  z-index: -1; }

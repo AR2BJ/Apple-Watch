@@ -1,0 +1,17 @@
+{
+	"name": "apple-watch",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"sass": "node-sass --watch scss/ -o css/ --recursive"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"live-server": "^1.2.2",
+		"node-sass": "^9.0.0",
+		"swiper": "^11.1.1"
+	}
+}
